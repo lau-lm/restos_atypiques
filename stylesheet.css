@@ -14,6 +14,14 @@ body {
 }
 
 
+#carousel {
+	margin-bottom: 20px;
+	padding-top: 50px;
+	background-color: #0B0B0B;
+}
+
+
+
 /*
 Style ancien footer
 */
@@ -47,7 +55,8 @@ Fin style ancien footer
     color: #f8f8f8;
     background: url(banner-bg.jpg) no-repeat center center;
     background-size: cover;
-}
+
+
 
 .banner h2 {
     margin: 0;
