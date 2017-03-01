@@ -13,6 +13,7 @@ body {
 	max-width: 100%;
 }
 
+<<<<<<< HEAD
 
 /*
 Style ancien footer
@@ -93,3 +94,14 @@ footer {
     padding: 50px 0;
     background-color: #f8f8f8;
 }
+=======
+#carousel {
+	margin-bottom: 20px;
+}
+
+.slider-size {
+/*max-width: 1300px; 
+*/min-height: 200px;
+max-height: 800px;
+}
+>>>>>>> master
