@@ -51,12 +51,11 @@ Fin style ancien footer
 
 .banner {
     padding: 100px 0;
-		margin-top: 50px;
+    margin-top: 50px;
     color: #f8f8f8;
     background: url(banner-bg.jpg) no-repeat center center;
     background-size: cover;
-
-
+}
 
 .banner h2 {
     margin: 0;
