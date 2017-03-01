@@ -3,7 +3,11 @@ body {
 	margin:0;
 }
 
-
+/*Style navbar*/
+.navbar {
+	padding: 15px 70px;
+	height: 90px;
+}
 
 #conceptPicture{
 	max-width: 100%;
@@ -16,12 +20,16 @@ Style footer
 
 footer {
 	margin-top: 30px;
-	background-color: green;
+	background-color: grey;
 	padding-top: 20px;
+	height: 150px;
+}
+footer li {
+	display: inline;
 }
 #footer-left, #footer-right, #footer-center {
 	border: solid;
-	border-width: 5px;
+	border-width: 1px;
 	border-color: black;
 }
 
