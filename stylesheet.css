@@ -1,6 +1,18 @@
+/*Initialisation marges body*/
+body {
+	margin:0;
+}
+
+/*Style navbar*/
+.navbar {
+	padding: 15px 70px;
+	height: 90px;
+}
+
 #conceptPicture{
 	max-width: 100%;
 }
+
 
 #carousel {
 	margin-bottom: 20px;
@@ -8,10 +20,88 @@
 	background-color: #0B0B0B;
 }
 
-.slider-size {
-min-height: 200px;
-max-height: 800px;
+
+
+/*
+Style ancien footer
+*/
+
+/*footer {
+	margin-top: 30px;
+	background-color: grey;
+	padding-top: 20px;
+	height: 150px;
 }
+footer li {
+	display: inline;
+}
+#footer-left, #footer-right, #footer-center {
+	border: solid;
+	border-width: 1px;
+	border-color: black;
+}*/
+
+/*
+Fin style ancien footer
+*/
+
+
+/*Style footer bootstrap template https://github.com/BlackrockDigital/startbootstrap-landing-page*/
+
+
+.banner {
+    padding: 100px 0;
+    margin-top: 50px;
+    color: #f8f8f8;
+    background: url(banner-bg.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.banner h2 {
+    margin: 0;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+    font-size: 3em;
+}
+
+.banner ul {
+    margin-bottom: 0;
+}
+
+.banner-social-buttons {
+    float: right;
+    margin-top: 0;
+}
+
+@media(max-width:1199px) {
+    ul.banner-social-buttons {
+        float: left;
+        margin-top: 15px;
+    }
+}
+
+@media(max-width:767px) {
+    .banner h2 {
+        margin: 0;
+        text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+        font-size: 3em;
+    }
+
+    ul.banner-social-buttons > li {
+        display: block;
+        margin-bottom: 20px;
+        padding: 0;
+    }
+
+    ul.banner-social-buttons > li:last-child {
+        margin-bottom: 0;
+    }
+}
+
+footer {
+    padding: 50px 0;
+    background-color: #f8f8f8;
+}
+
 
 /*places arrows on image for smaller screens*/
 .carousel-control {
