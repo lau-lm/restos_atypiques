@@ -13,17 +13,16 @@ body {
 /*
 Style footer
 */
-footer {
-	background-color: black;
-	color: white;
-	height: 70px;
-	padding: 30px;
-	text-align: center;
-	margin-top: 30px;
-}
 
-ul.footer-center li{
-	display: inline;
+footer {
+	margin-top: 30px;
+	background-color: green;
+	padding-top: 20px;
+}
+#footer-left, #footer-right, #footer-center {
+	border: solid;
+	border-width: 5px;
+	border-color: black;
 }
 
 
