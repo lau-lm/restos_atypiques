@@ -15,10 +15,10 @@ body {
 
 
 /*
-Style footer
+Style ancien footer
 */
 
-footer {
+/*footer {
 	margin-top: 30px;
 	background-color: grey;
 	padding-top: 20px;
@@ -31,6 +31,65 @@ footer li {
 	border: solid;
 	border-width: 1px;
 	border-color: black;
+}*/
+
+/*
+Fin style ancien footer
+*/
+
+
+/*Style footer bootstrap template https://github.com/BlackrockDigital/startbootstrap-landing-page*/
+
+
+.banner {
+    padding: 100px 0;
+		margin-top: 50px;
+    color: #f8f8f8;
+    background: url(banner-bg.jpg) no-repeat center center;
+    background-size: cover;
 }
 
+.banner h2 {
+    margin: 0;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+    font-size: 3em;
+}
 
+.banner ul {
+    margin-bottom: 0;
+}
+
+.banner-social-buttons {
+    float: right;
+    margin-top: 0;
+}
+
+@media(max-width:1199px) {
+    ul.banner-social-buttons {
+        float: left;
+        margin-top: 15px;
+    }
+}
+
+@media(max-width:767px) {
+    .banner h2 {
+        margin: 0;
+        text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+        font-size: 3em;
+    }
+
+    ul.banner-social-buttons > li {
+        display: block;
+        margin-bottom: 20px;
+        padding: 0;
+    }
+
+    ul.banner-social-buttons > li:last-child {
+        margin-bottom: 0;
+    }
+}
+
+footer {
+    padding: 50px 0;
+    background-color: #f8f8f8;
+}
