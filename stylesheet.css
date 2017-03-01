@@ -1,3 +1,13 @@
 #conceptPicture{
 	max-width: 100%;
 }
+
+#carousel {
+	margin-bottom: 20px;
+}
+
+.slider-size {
+/*max-width: 1300px; 
+*/min-height: 200px;
+max-height: 800px;
+}
