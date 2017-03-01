@@ -7,7 +7,24 @@
 }
 
 .slider-size {
-/*max-width: 1300px; 
-*/min-height: 200px;
+min-height: 200px;
 max-height: 800px;
+}
+
+/*places arrows on image for smaller screens*/
+.carousel-control {
+top: -200px;
+}
+
+/*how to place arrows on image when lg screen?*/
+
+/*removes shadows on side*/
+.carousel-control.left, .carousel-control.right {
+    background-image: none
+}
+
+/*centers images in the carousel*/
+.carousel-inner > .item > img, 
+.carousel-inner > .item > a > img{
+margin: auto;
 }
