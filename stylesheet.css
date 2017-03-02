@@ -1,3 +1,34 @@
+/*navbar style*/
+
+.navbar {
+	height: 100px;
+	padding: 20px 0;
+}
+
+
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+	font-size: 18px;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
+}
+
+
+.navbar-btn {
+	margin-right: 80px;
+	clear: both;
+	float: none;
+	font-size: 18px;
+	}
+
+/*fin navbar style*/
+
+
+
 #conceptPicture{
 	max-width: 100%;
 }
