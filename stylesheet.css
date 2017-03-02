@@ -1,4 +1,4 @@
-#conceptPicture{
+.picture{
 	max-width: 100%;
 }
 
@@ -29,4 +29,14 @@ top: -200px;
 .carousel-inner > .item > img, 
 .carousel-inner > .item > a > img{
 margin: auto;
+}
+
+.glyphicon{
+	color: goldenrod;
+	font-size: 2em;
+}
+
+.avisDiv{
+	text-align: center;
+	margin: 10px 0 10px 0;
 }
