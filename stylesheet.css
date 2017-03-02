@@ -29,7 +29,8 @@
 
 
 
-#conceptPicture{
+
+.picture{
 	max-width: 100%;
 }
 
@@ -60,4 +61,23 @@ top: -200px;
 .carousel-inner > .item > img, 
 .carousel-inner > .item > a > img{
 margin: auto;
+}
+
+.glyphicon{
+	color: goldenrod;
+	font-size: 2em;
+}
+
+.avis{
+	text-align: center;
+	margin: 10px 0 10px 0;
+}
+p{
+	text-align: justify;
+}
+.avis p{
+	text-align: center;
+}
+.avisTexte{
+	height: 100%;
 }
