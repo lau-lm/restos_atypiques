@@ -36,7 +36,16 @@ margin: auto;
 	font-size: 2em;
 }
 
-.avisDiv{
+.avis{
 	text-align: center;
 	margin: 10px 0 10px 0;
+}
+p{
+	text-align: justify;
+}
+.avis p{
+	text-align: center;
+}
+.avisTexte{
+	height: 100%;
 }
