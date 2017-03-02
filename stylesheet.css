@@ -1,4 +1,36 @@
-#conceptPicture{
+/*navbar style*/
+
+.navbar {
+	height: 100px;
+	padding: 20px 0;
+}
+
+
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+	font-size: 18px;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
+}
+
+
+.navbar-btn {
+	margin-right: 80px;
+	clear: both;
+	float: none;
+	font-size: 18px;
+	}
+
+/*fin navbar style*/
+
+
+
+
+.picture{
 	max-width: 100%;
 }
 
@@ -28,4 +60,23 @@ top: -200px;
 .carousel-inner > .item > img, 
 .carousel-inner > .item > a > img{
 margin: auto;
+}
+
+.glyphicon{
+	color: goldenrod;
+	font-size: 2em;
+}
+
+.avis{
+	text-align: center;
+	margin: 10px 0 10px 0;
+}
+p{
+	text-align: justify;
+}
+.avis p{
+	text-align: center;
+}
+.avisTexte{
+	height: 100%;
 }
