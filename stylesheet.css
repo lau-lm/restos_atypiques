@@ -1,11 +1,15 @@
 /*navbar style*/
 
 .navbar {
-	height: 100px;
 	padding: 20px 0;
+	background-color: #233140;
 }
 
+.navbar-default .navbar-brand {
+	color: white;
+}
 
+@media screen and (min-width: 768px) {
 .navbar .navbar-nav {
   display: inline-block;
   float: none;
@@ -15,7 +19,7 @@
 
 .navbar .navbar-collapse {
   text-align: center;
-}
+}}
 
 
 .navbar-btn {
