@@ -126,8 +126,15 @@ footer .footer-below {
   text-align: center;
   font-size: 20px;
   line-height: 45px;
-}
-
-.fa {
 	color: black;
 }
+
+.btn-outline:hover,
+.btn-outline:focus,
+.btn-outline:active,
+.btn-outline.active {
+  color: white;
+  background: black;
+ 	border: 2px solid black;
+}
+
