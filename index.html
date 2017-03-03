@@ -15,6 +15,13 @@
 		<link rel="stylesheet" href="stylesheet.css">
 
 
+
+		<!-- Custom Fonts for footer theme -->
+		<link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+
+
+
 </head>
 
 <body>
@@ -22,7 +29,7 @@
 	<header>
 
 		<!--navbar bootstrap-->
-		<nav class="navbar navbar-default navbar-fixed-top ">
+		<nav class="navbar navbar-default navbar-fixed-top">
 			<div class="container-fluid">
 				<!-- Brand and toggle get grouped for better mobile display -->
 				<div class="navbar-header">
@@ -39,9 +46,9 @@
 				<!-- Collect the nav links, forms, and other content for toggling -->
 				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 					<ul class="nav navbar-nav">
-						<li class="active"><a href="#">Le concept<span class="sr-only">(current)</span></a></li>
-						<li><a href="#">Trouver un restaurant</a></li>
-						<li><a href="#">Avis clients</a></li>
+						<li class="active"><a href="#conceptDiv">Le concept<span class="sr-only">(current)</span></a></li>
+						<li><a href="#mapDiv">Trouver un restaurant</a></li>
+						<li><a href="#avisDiv">Avis clients</a></li>
 					</ul>
 					<ul class="nav navbar-nav navbar-right">
 						<button class="btn btn-info navbar-btn">Devenez franchisés</button>
@@ -155,6 +162,7 @@
 					</div>
 				</div>
 
+
 			</div>
 		</div>`
 	</div>
@@ -185,7 +193,9 @@
 		</div>
 
 		<!--concept part-->
-		<div class="row conceptDiv">
+
+		<div id="conceptDiv" class="row conceptDiv">
+
 			<div class="col-lg-6 col-xs-12">
 
 				<p>Nemo quaeso miretur, si post exsudatos labores itinerum longos congestosque adfatim commeatus fiducia vestri ductante
@@ -208,9 +218,11 @@
 		</div>
 
 		<!--review part-->
+
 		<div class="row avisDiv">
 			<!--premier avis-->
 			<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 avis">
+
 				<div class="row">
 					<div class="col-lg-6 col-xs-6">
 						<img class="picture" src="https://us.123rf.com/450wm/gmast3r/gmast3r1508/gmast3r150800178/44204240-profile-icon-male-avatar-portrait.jpg"
@@ -224,7 +236,9 @@
 				</div>
 			</div>
 			<!--deuxieme avis-->
+
 			<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 avis">
+
 				<div class="row">
 					<div class="col-lg-6 col-xs-6">
 						<img class="picture" src="https://www.colourbox.com/preview/14860129-profile-icon-male-avatar-portrait-casual-person-silhouette-face.jpg"
@@ -238,7 +252,9 @@
 				</div>
 			</div>
 			<!--troisieme avis-->
+
 			<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 avis">
+
 				<div class="row">
 					<div class="col-lg-6 col-xs-6">
 						<img class="picture" src="http://st2.depositphotos.com/1006318/10458/v/950/depositphotos_104580342-stock-illustration-business-man-profile-icon-male.jpg"
@@ -257,17 +273,61 @@
 	<!-- Fin container-->
 
 
-	<footer></footer>
 
-	</div>
-	<!--end container bootstrap-->
+	<!-- Footer -->
+	<footer class="text-center">
+		<div class="footer-above">
+			<div class="container">
+				<div class="row">
+					<div class="footer-col col-md-4">
+						<h3>Mentions légales</h3>
+					</div>
+					<div class="footer-col col-md-4">
+						<h3>Retrouvez-nous !</h3>
+						<ul class="list-inline">
+							<li>
+								<a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-facebook"></i></a>
+							</li>
+							<li>
+								<a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-instagram"></i></a>
+							</li>
+							<li>
+								<a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-twitter"></i></a>
+							</li>
+							<li>
+								<a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-envelope"></i></a>
+							</li>
+						</ul>
+					</div>
+					<div class="footer-col col-md-4">
+						<h3>Crédits</h3>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer-below">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12">
+						Copyright - Wild Code School - 2017
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
 
-	<!--Jquery minified-->
+	<!--fin footer-->
+
+
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 
 	<!-- Latest compiled and minified JavaScript -->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
 		crossorigin="anonymous"></script>
+
+
+		<!--script font awesome for footer icons-->
+		<script src="https://use.fontawesome.com/a8d58e7795.js"></script>
 
 
 
