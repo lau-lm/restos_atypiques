@@ -1,3 +1,7 @@
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+
 /*navbar style*/
 
 .navbar {
@@ -7,6 +11,8 @@
 
 .navbar-default .navbar-brand {
 	color: white;
+	font-family: 'Delius Unicase', cursive;
+	font-size: 2.2em;
 }
 
 @media screen and (min-width: 768px) {
@@ -21,7 +27,6 @@
   text-align: center;
 }}
 
-
 .navbar-btn {
 	margin-right: 80px;
 	clear: both;
@@ -30,8 +35,6 @@
 	}
 
 /*fin navbar style*/
-
-
 
 .picture{
 	max-width: 100%;
