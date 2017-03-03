@@ -69,7 +69,7 @@ margin: auto;
 
 .avis{
 	text-align: center;
-	padding: 1.5em 0 1.5em 0;
+	padding: 3em 0 3em 0;
 }
 p{
 	text-align: justify;
@@ -85,7 +85,7 @@ width: 100%;
 height: 500px;
 }
 .mapDiv,.conceptDiv{
-padding: 1.5em 0 1.5em 0;
+padding: 3em 0 3em 0;
 border-bottom: solid 1px;
 border-color: lightgray;
 }
