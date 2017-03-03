@@ -1,10 +1,9 @@
-#conceptPicture{
+.picture{
 	max-width: 100%;
 }
 
-#carousel {
-	margin-bottom: 20px;
-	padding-top: 50px;
+.carousel {
+	margin: 30px 0 10px 0;
 	background-color: #0B0B0B;
 	display: block;
 }
@@ -12,11 +11,6 @@
 .slider-size {
 min-height: 200px;
 max-height: 500px;
-}
-
-/*places arrows on image for smaller screens*/
-.carousel-control {
-top: -200px;
 }
 
 /*removes shadows on side*/
@@ -28,4 +22,23 @@ top: -200px;
 .carousel-inner > .item > img, 
 .carousel-inner > .item > a > img{
 margin: auto;
+}
+
+.glyphicon{
+	color: goldenrod;
+	font-size: 2em;
+}
+
+.avis{
+	text-align: center;
+	margin: 10px 0 10px 0;
+}
+p{
+	text-align: justify;
+}
+.avis p{
+	text-align: center;
+}
+.avisTexte{
+	height: 100%;
 }
