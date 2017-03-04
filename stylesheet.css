@@ -3,6 +3,8 @@
 .navbar {
 	padding: 20px 0;
 	background-color: #233140;
+	opacity: 0.9;
+	border: 0;
 }
 
 .navbar-default .navbar-brand {
