@@ -42,12 +42,13 @@ body, html {
 		transition-timing-function: ease;
 		}
 
-	.navbar-default .navbar-brand {
+
+	/*.navbar-default .navbar-brand {
 		color: white; 
 		font-size: 30px;
 		font-weight: bold;
 		font-family: 'Poiret One', cursive;
-		/*margin-left: 200px!important;*/
+		margin-left: 200px!important;
 		transition-property: margin, color, font-size;
 		transition-duration: .3s;
 		transition-timing-function: ease;
@@ -57,22 +58,33 @@ body, html {
 		color: black;
 		font-size: 20px;
 		font-family: 'Poiret One', cursive;
-		/*margin-left: 0px!important;*/
+		margin-left: 0px!important;
 		transition-property: margin, color, font-size;
 		transition-duration: .3s;
 		transition-timing-function: ease;
-	}
+	}*/
+
+	.navbar-default .navbar-brand {
+		padding: 0!important;
+		margin: 0!important;
+		}
 
 	.navbar-brand img {
-		width:200px;
+		width:150px;
 		height: auto;
-		margin-left: 300px;
+		margin-left: 50px;
+		transition-property: margin, width;
+		transition-duration: .3s;
+		transition-timing-function: ease;
 	}
 
 	.navbar-brand .scroll {
 		width:50px;
 		height: auto;
-		margin-left: 5px;
+		margin-left: 40px;
+		transition-property: margin, width;
+		transition-duration: .3s;
+		transition-timing-function: ease;
 	}
 
 	.navbar .navbar-nav {
@@ -80,6 +92,7 @@ body, html {
 		float: none;
 		vertical-align: top;
 		}
+		
 	.navbar .navbar-collapse {
 		text-align: center;
 	}
@@ -129,13 +142,6 @@ body, html {
 }
 
 
-/*Scroll style li menu not working*/
-
-	/*.nav.navbar-nav.scroll li a {
-		color: #000000;
-		transition: color .3s linear;
-	}*/
-
 } /* end navbar desktop style*/
 
 
@@ -145,8 +151,9 @@ body, html {
 
 @media screen and (max-width: 768px) {
 	.navbar {
-			background-color: rgba(255,255,255,.9);
-			box-shadow: 0px 1px 50px #aaa; 
+		background-color: rgba(0,0,0,.7);
+		box-shadow: 0px 1px 50px #aaa; 
+		border: 0;
 	}
 
 	.navbar-default .navbar-brand {
@@ -154,6 +161,25 @@ body, html {
 		font-size: 20px;
 		font-family: 'Poiret One', cursive;
 		}
+	
+	.navbar-brand img {
+		width: 40px;
+		height: auto;
+	}
+	.navbar-default .navbar-brand {
+		padding: 5px 0 0 15px;
+	}
+	
+		.navbar-default .navbar-toggle { 
+  border-color: transparent; 
+	}
+	.navbar-default .navbar-toggle .icon-bar {
+    background-color: #FDD835;
+	}
+	.navbar-default .navbar-toggle:focus {
+ 		background-color: transparent;
+	}	
+
 }
 
 /*end navbar style mobile*/
