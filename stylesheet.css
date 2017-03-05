@@ -55,11 +55,12 @@ body, html {
 	clear: both;
 	float: none;
 	font-size: 18px;
+	border-radius:0;
 	}
 
 	.scroll-active {
-		background-color: #ffffff;
-		color: #000000;
+		background-color: rgba(255,255,255,.9);
+		box-shadow: 0px 1px 50px #aaa; 
 	}
 
 /*fin navbar style*/
