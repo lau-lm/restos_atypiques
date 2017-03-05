@@ -77,11 +77,33 @@ body, html {
 		font-size: 20px;
 		font-weight: bold;
 		font-family: 'Alegreya Sans SC', sans-serif;
+		position: relative;
+		text-decoration: none;
 
 		/*font-family: 'Poiret One', cursive;*/
 		/*font-family: 'Work Sans', sans-serif;*/
 
 	}
+
+	.nav.navbar-nav li a:hover {
+		color: #FDD835;
+	}
+
+
+.nav.navbar-nav li a:after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0%;
+  border-bottom: 2px solid #3366FF;
+  transition: 0.4s;
+}
+
+.nav.navbar-nav li a:hover:after {
+  width: 100%;
+}
+
 
 /*Scroll style li menu not working*/
 
