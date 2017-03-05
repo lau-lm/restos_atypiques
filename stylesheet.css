@@ -1,13 +1,71 @@
+body, html {
+	margin: 0;
+	padding: 0;
+}
+
+
+/*header style*/
+
+.layer-header {
+	background-color: rgba(0,0,0,.4);
+	width: 100%;
+	height: 100%;
+}
+
+.business-header {
+    background-repeat: no-repeat;
+    background-image: url("img/header2.jpg");
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 800px;
+}
+
 /*navbar style*/
 
 .navbar {
 	padding: 20px 0;
-	background-color: #233140;
-}
+	background-color: transparent;
+	transition-property: background, padding, height;
+	transition-duration: .3s;
+	transition-timing-function: ease;
+	border: 0;
+	height: 120px;
+	padding-top: 40px;
+	}
+
+.navbar.scroll {
+	background-color: rgba(255,255,255,.9);
+	box-shadow: 0px 1px 50px #aaa; 
+	margin-top: 0;
+	height: 100px;
+	padding-top: 20px;
+	transition-property: background, padding, height;
+	transition-duration: .3s;
+	transition-timing-function: ease;
+	}
 
 .navbar-default .navbar-brand {
-	color: white;
+	color: white; 
+	font-size: 50px;
+	font-family: 'Poiret One', cursive;
+	margin-left: 40px!important;
+	transition-property: margin, color, font-size;
+	transition-duration: .3s;
+	transition-timing-function: ease;
 }
+
+.navbar-default .navbar-brand.scroll {
+	color: black;
+	font-size: 40px;
+	font-family: 'Poiret One', cursive;
+	margin-left: 10px!important;
+	transition-property: margin, color, font-size;
+	transition-duration: .3s;
+	transition-timing-function: ease;
+}
+
+
 
 @media screen and (min-width: 768px) {
 .navbar .navbar-nav {
@@ -15,11 +73,28 @@
   float: none;
   vertical-align: top;
 	font-size: 18px;
-}
+	}
+
+.nav.navbar-nav li a {
+   color: white;
+	 font-size: 25px;
+	 font-family: 'Alegreya Sans SC', sans-serif;
+
+/*font-family: 'Poiret One', cursive;*/
+/*font-family: 'Work Sans', sans-serif;*/
+
+ }
+
+ .nav.navbar-nav.scroll li a {
+	 color: #000000;
+	 transition: color .3s linear;
+ }
 
 .navbar .navbar-collapse {
   text-align: center;
-}}
+	color: #ffffff;
+	transition: color .3s linear;
+}
 
 
 .navbar-btn {
@@ -27,7 +102,13 @@
 	clear: both;
 	float: none;
 	font-size: 18px;
+	border-radius:0;
+	background-color: #FDD835;
+	font-family: 'Alegreya Sans SC', sans-serif;
+	font-weight: bold
 	}
+
+
 
 /*fin navbar style*/
 
@@ -68,7 +149,7 @@
 
 .slider-size {
 min-height: 200px;
-max-height: 500px;
+max-height: 1000px;
 }
 
 /*removes shadows on side*/
@@ -100,6 +181,8 @@ p{
 .avisTexte{
 	height: 100%;
 }
+
+
 
 #map{
 width: 100%;

@@ -1,5 +1,24 @@
 
 $(document).ready(function () {
+
+
+	// change navbar background color and text color on scroll
+	$(window).scroll(function () {
+		if ($(document).scrollTop() > 100) {
+			$('.navbar').addClass('scroll');
+			$('.navbar-default .navbar-brand').addClass('scroll');
+			$('.nav.navbar-nav').addClass('scroll');
+		} else {
+			$('.navbar, .navbar-default .navbar-brand').removeClass('scroll'); // if not, change it back to transparent
+			$('.navbar-default .navbar-brand').removeClass('scroll');
+			$('.nav.navbar-nav').removeClass('scroll');
+		}
+	});
+
+
+
+
+
 	$('#map').googleMap({
 		zoom: 6, // Initial zoom level (optional)
 		coords: [46.1270048, 4.1599028], // Map center (optional)
