@@ -6,21 +6,13 @@ body, html {
 
 /*header style*/
 
-.layer-header {
+
+
+.parallax-window {
 	background-color: rgba(0,0,0,.4);
 	width: 100%;
-	height: 100%;
+	min-height: 700px;
 }
-
-.business-header {
-    background-repeat: no-repeat;
-    background-image: url("img/header2.jpg");
-    background-size: cover;
-    background-position: center center;
-    width: 100%;
-    height: 800px;
-}
-
 
 
 /*navbar style*/
