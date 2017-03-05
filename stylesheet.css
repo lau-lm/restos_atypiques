@@ -101,46 +101,55 @@ body, html {
 		color: #ffffff;
 		font-size: 20px;
 		font-weight: bold;
-		font-family: 'Alegreya Sans SC', sans-serif;
 		position: relative;
 		text-decoration: none;
-
-		/*font-family: 'Poiret One', cursive;*/
+		font-family: 'Poiret One', cursive;
+		/*font-family: 'Alegreya Sans SC', sans-serif;*/
 		/*font-family: 'Work Sans', sans-serif;*/
 
 	}
 
-/*underline hover effect  desktop*/
-.nav.navbar-nav li a:hover {
-		color: #FDD835!important;
+	/*underline hover effect  desktop*/
+	.nav.navbar-nav li a:hover {
+			color: #FDD835!important;
+		}
+
+	.nav.navbar-nav li a:before {
+		content: "";
+		position: absolute;
+		width: 100%;
+		height: 1.5px;
+		bottom: 0;
+		left: 0;
+		background-color: #FDD835;
+		visibility: hidden;
+		-webkit-transform: scaleX(0);
+		transform: scaleX(0);
+		-webkit-transition: all 0.3s ease-in-out 0s;
+		transition: all 0.3s ease-in-out 0s;
 	}
 
-.nav.navbar-nav li a:before {
-  content: "";
-  position: absolute;
-  width: 100%;
-  height: 1.5px;
-  bottom: 0;
-  left: 0;
-  background-color: #FDD835;
-  visibility: hidden;
-  -webkit-transform: scaleX(0);
-  transform: scaleX(0);
-  -webkit-transition: all 0.3s ease-in-out 0s;
-  transition: all 0.3s ease-in-out 0s;
-}
+	.nav.navbar-nav li a:hover:before {
+		visibility: visible;
+		-webkit-transform: scaleX(1);
+		transform: scaleX(1);
+	}
 
-.nav.navbar-nav li a:hover:before {
-  visibility: visible;
-  -webkit-transform: scaleX(1);
-  transform: scaleX(1);
-}
+	.navbar-fixed-top .active a {
+			color: #FDD835!important;
+			background-color: transparent!important;
+	}
 
-.navbar-fixed-top .active a {
-		color: #FDD835!important;
-		background-color: transparent!important;
-}
-
+	.navbar-btn {
+		margin-right: 80px;
+		clear: both;
+		float: none;
+		font-size: 18px;
+		border-radius:0;
+		background-color: #FDD835;
+		font-family: 'Alegreya Sans SC', sans-serif;
+		font-weight: bold
+		}
 
 } /* end navbar desktop style*/
 
@@ -179,23 +188,8 @@ body, html {
 	.navbar-default .navbar-toggle:focus {
  		background-color: transparent;
 	}	
-
 }
-
 /*end navbar style mobile*/
-
-
-
-.navbar-btn {
-	margin-right: 80px;
-	clear: both;
-	float: none;
-	font-size: 18px;
-	border-radius:0;
-	background-color: #FDD835;
-	font-family: 'Alegreya Sans SC', sans-serif;
-	font-weight: bold
-	}
 
 
 
