@@ -35,8 +35,8 @@ body, html {
 		background-color: rgba(255,255,255,.9);
 		box-shadow: 0px 1px 50px #aaa; 
 		margin-top: 0;
-		height: 80px;
-		padding-top: 10px;
+		height: 65px;
+		padding-top: 5px;
 		transition-property: background, padding, height;
 		transition-duration: .3s;
 		transition-timing-function: ease;
@@ -44,7 +44,8 @@ body, html {
 
 	.navbar-default .navbar-brand {
 		color: white; 
-		font-size: 40px;
+		font-size: 30px;
+		font-weight: bold;
 		font-family: 'Poiret One', cursive;
 		margin-left: 30px!important;
 		transition-property: margin, color, font-size;
@@ -54,7 +55,7 @@ body, html {
 
 	.navbar-default .navbar-brand.scroll {
 		color: black;
-		font-size: 30px;
+		font-size: 20px;
 		font-family: 'Poiret One', cursive;
 		margin-left: 10px!important;
 		transition-property: margin, color, font-size;
@@ -66,7 +67,6 @@ body, html {
 		display: inline-block;
 		float: none;
 		vertical-align: top;
-		font-size: 18px;
 		}
 	.navbar .navbar-collapse {
 		text-align: center;
@@ -74,7 +74,8 @@ body, html {
 
 	.nav.navbar-nav li a {
 		color: #ffffff;
-		font-size: 23px;
+		font-size: 20px;
+		font-weight: bold;
 		font-family: 'Alegreya Sans SC', sans-serif;
 
 		/*font-family: 'Poiret One', cursive;*/
