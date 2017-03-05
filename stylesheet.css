@@ -1,9 +1,31 @@
+body, html {
+	margin: 0;
+}
+
+
+/*header style*/
+
+.layer-header {
+	background-color: rgba(0,0,0,.4);
+	width: 100%;
+	height: 100%;
+}
+
+.business-header {
+    background-repeat: no-repeat;
+    background-image: url("img/header2.jpg");
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 800px;
+}
+
 /*navbar style*/
 
 .navbar {
 	padding: 20px 0;
-	background-color: #233140;
-	opacity: 0.9;
+	background-color: transparent;
+	transition: background .3s ease;
 	border: 0;
 }
 
@@ -17,11 +39,15 @@
   float: none;
   vertical-align: top;
 	font-size: 18px;
-}
+	}
+
+.nav.navbar-nav li a {
+   color: white;
+ }
 
 .navbar .navbar-collapse {
   text-align: center;
-}}
+}
 
 
 .navbar-btn {
@@ -29,6 +55,11 @@
 	clear: both;
 	float: none;
 	font-size: 18px;
+	}
+
+	.scroll-active {
+		background-color: #ffffff;
+		color: #000000;
 	}
 
 /*fin navbar style*/
@@ -48,7 +79,7 @@
 
 .slider-size {
 min-height: 200px;
-max-height: 500px;
+max-height: 1000px;
 }
 
 /*removes shadows on side*/
@@ -80,6 +111,8 @@ p{
 .avisTexte{
 	height: 100%;
 }
+
+
 
 #map{
 width: 100%;
