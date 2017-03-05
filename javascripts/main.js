@@ -18,6 +18,32 @@ $(document).ready(function () {
 	});
 
 
+	$(window).scroll(function () {
+
+		if ($(this).scrollTop() < $('section[data-anchor="top"]').offset().top) {
+			$('li').removeClass('active');
+		}
+
+		if ($(this).scrollTop() >= $('section[data-anchor="top"]').offset().top) {
+			$('li').removeClass('active');
+			$('li a:eq(0)').addClass('active');
+		}
+		if ($(this).scrollTop() >= $('section[data-anchor="news"]').offset().top) {
+			$('nav a').removeClass('active');
+			$('nav a:eq(1)').addClass('active');
+		}
+		if ($(this).scrollTop() >= $('section[data-anchor="products"]').offset().top) {
+			$('nav a').removeClass('active');
+			$('nav a:eq(2)').addClass('active');
+		}
+		if ($(this).scrollTop() >= $('section[data-anchor="contact"]').offset().top) {
+			$('nav a').removeClass('active');
+			$('nav a:eq(3)').addClass('active');
+		}
+
+	});
+
+
 
 
 
