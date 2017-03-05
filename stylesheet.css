@@ -25,12 +25,15 @@ body, html {
 .navbar {
 	padding: 20px 0;
 	background-color: transparent;
-	transition: background .3s ease;
+	transition: background, margin-top .3s ease;
 	border: 0;
-}
+	margin-top: 20px;
+	}
 
 .navbar-default .navbar-brand {
 	color: white;
+	font-size: 40px;
+	font-family: 'Poiret One', cursive;
 }
 
 @media screen and (min-width: 768px) {
@@ -43,6 +46,12 @@ body, html {
 
 .nav.navbar-nav li a {
    color: white;
+	 font-size: 25px;
+	 font-family: 'Alegreya Sans SC', sans-serif;
+
+/*font-family: 'Poiret One', cursive;*/
+/*font-family: 'Work Sans', sans-serif;*/
+
  }
 
 .navbar .navbar-collapse {
@@ -56,11 +65,15 @@ body, html {
 	float: none;
 	font-size: 18px;
 	border-radius:0;
+	background-color: #FDD835;
+	font-family: 'Alegreya Sans SC', sans-serif;
+	font-weight: bold
 	}
 
 	.scroll-active {
 		background-color: rgba(255,255,255,.9);
 		box-shadow: 0px 1px 50px #aaa; 
+		margin-top: 0;
 	}
 
 /*fin navbar style*/
