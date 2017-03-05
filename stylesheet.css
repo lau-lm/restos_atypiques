@@ -25,7 +25,7 @@ body, html {
 
 /*navbar style*/
 
-/*navbar desktop animation*/
+/*navbar desktop style & animation*/
 
 @media screen and (min-width: 768px) {
 	.navbar {
@@ -35,16 +35,16 @@ body, html {
 		transition-duration: .3s;
 		transition-timing-function: ease;
 		border: 0;
-		height: 120px;
-		padding-top: 40px;
+		height: 100px;
+		padding-top: 30px;
 		}
 
 	.navbar.scroll {
 		background-color: rgba(255,255,255,.9);
 		box-shadow: 0px 1px 50px #aaa; 
 		margin-top: 0;
-		height: 100px;
-		padding-top: 20px;
+		height: 80px;
+		padding-top: 10px;
 		transition-property: background, padding, height;
 		transition-duration: .3s;
 		transition-timing-function: ease;
@@ -52,7 +52,7 @@ body, html {
 
 	.navbar-default .navbar-brand {
 		color: white; 
-		font-size: 50px;
+		font-size: 40px;
 		font-family: 'Poiret One', cursive;
 		margin-left: 40px!important;
 		transition-property: margin, color, font-size;
@@ -62,7 +62,7 @@ body, html {
 
 	.navbar-default .navbar-brand.scroll {
 		color: black;
-		font-size: 40px;
+		font-size: 30px;
 		font-family: 'Poiret One', cursive;
 		margin-left: 10px!important;
 		transition-property: margin, color, font-size;
@@ -76,7 +76,7 @@ body, html {
 			display: inline-block;
 			float: none;
 			vertical-align: top;
-			font-size: 18px;
+			font-size: 16px;
 			}
 		.navbar .navbar-collapse {
 			text-align: center;
@@ -95,7 +95,7 @@ body, html {
 		.nav.navbar-nav.scroll li a {
 			color: #000000;
 			transition: color .3s linear;
-		}}
+		}
 
 } /* end media query for navbar desktop animation*/
 
