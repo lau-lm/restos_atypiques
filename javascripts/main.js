@@ -7,13 +7,11 @@ $(document).ready(function () {
 		if ($(document).scrollTop() > 100) {
 			$('.navbar').addClass('scroll');
 			$('.navbar-default .navbar-brand').addClass('scroll');
-			// $('.nav.navbar-nav li a').addClass('scroll');  //Scroll style li menu not working
-			$('.nav.navbar-nav li a').css('color', '#000000');
+			$('.navbar-brand img').addClass('scroll');
 		} else {
 			$('.navbar, .navbar-default .navbar-brand').removeClass('scroll');
 			$('.navbar-default .navbar-brand').removeClass('scroll');
-			// $('.nav.navbar-nav li a').removeClass('scroll');  //Scroll style li menu not working
-			$('.nav.navbar-nav li a').css('color', '#ffffff');
+			$('.navbar-brand img').removeClass('scroll');
 		}
 	});
 

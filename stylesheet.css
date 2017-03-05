@@ -47,7 +47,7 @@ body, html {
 		font-size: 30px;
 		font-weight: bold;
 		font-family: 'Poiret One', cursive;
-		margin-left: 30px!important;
+		/*margin-left: 200px!important;*/
 		transition-property: margin, color, font-size;
 		transition-duration: .3s;
 		transition-timing-function: ease;
@@ -57,10 +57,22 @@ body, html {
 		color: black;
 		font-size: 20px;
 		font-family: 'Poiret One', cursive;
-		margin-left: 10px!important;
+		/*margin-left: 0px!important;*/
 		transition-property: margin, color, font-size;
 		transition-duration: .3s;
 		transition-timing-function: ease;
+	}
+
+	.navbar-brand img {
+		width:200px;
+		height: auto;
+		margin-left: 300px;
+	}
+
+	.navbar-brand .scroll {
+		width:50px;
+		height: auto;
+		margin-left: 5px;
 	}
 
 	.navbar .navbar-nav {
