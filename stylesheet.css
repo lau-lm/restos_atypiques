@@ -21,80 +21,86 @@ body, html {
     height: 800px;
 }
 
+
+
 /*navbar style*/
 
-.navbar {
-	padding: 20px 0;
-	background-color: transparent;
-	transition-property: background, padding, height;
-	transition-duration: .3s;
-	transition-timing-function: ease;
-	border: 0;
-	height: 120px;
-	padding-top: 40px;
-	}
-
-.navbar.scroll {
-	background-color: rgba(255,255,255,.9);
-	box-shadow: 0px 1px 50px #aaa; 
-	margin-top: 0;
-	height: 100px;
-	padding-top: 20px;
-	transition-property: background, padding, height;
-	transition-duration: .3s;
-	transition-timing-function: ease;
-	}
-
-.navbar-default .navbar-brand {
-	color: white; 
-	font-size: 50px;
-	font-family: 'Poiret One', cursive;
-	margin-left: 40px!important;
-	transition-property: margin, color, font-size;
-	transition-duration: .3s;
-	transition-timing-function: ease;
-}
-
-.navbar-default .navbar-brand.scroll {
-	color: black;
-	font-size: 40px;
-	font-family: 'Poiret One', cursive;
-	margin-left: 10px!important;
-	transition-property: margin, color, font-size;
-	transition-duration: .3s;
-	transition-timing-function: ease;
-}
-
-
+/*navbar desktop animation*/
 
 @media screen and (min-width: 768px) {
-.navbar .navbar-nav {
-  display: inline-block;
-  float: none;
-  vertical-align: top;
-	font-size: 18px;
+	.navbar {
+		padding: 20px 0;
+		background-color: transparent;
+		transition-property: background, padding, height;
+		transition-duration: .3s;
+		transition-timing-function: ease;
+		border: 0;
+		height: 120px;
+		padding-top: 40px;
+		}
+
+	.navbar.scroll {
+		background-color: rgba(255,255,255,.9);
+		box-shadow: 0px 1px 50px #aaa; 
+		margin-top: 0;
+		height: 100px;
+		padding-top: 20px;
+		transition-property: background, padding, height;
+		transition-duration: .3s;
+		transition-timing-function: ease;
+		}
+
+	.navbar-default .navbar-brand {
+		color: white; 
+		font-size: 50px;
+		font-family: 'Poiret One', cursive;
+		margin-left: 40px!important;
+		transition-property: margin, color, font-size;
+		transition-duration: .3s;
+		transition-timing-function: ease;
 	}
 
-.nav.navbar-nav li a {
-   color: white;
-	 font-size: 25px;
-	 font-family: 'Alegreya Sans SC', sans-serif;
+	.navbar-default .navbar-brand.scroll {
+		color: black;
+		font-size: 40px;
+		font-family: 'Poiret One', cursive;
+		margin-left: 10px!important;
+		transition-property: margin, color, font-size;
+		transition-duration: .3s;
+		transition-timing-function: ease;
+	}
 
-/*font-family: 'Poiret One', cursive;*/
-/*font-family: 'Work Sans', sans-serif;*/
 
- }
 
- .nav.navbar-nav.scroll li a {
-	 color: #000000;
-	 transition: color .3s linear;
- }
+		.navbar .navbar-nav {
+			display: inline-block;
+			float: none;
+			vertical-align: top;
+			font-size: 18px;
+			}
+		.navbar .navbar-collapse {
+			text-align: center;
+		}
 
-.navbar .navbar-collapse {
-  text-align: center;
-	color: #ffffff;
-	transition: color .3s linear;
-}
+
+		.nav.navbar-nav li a {
+		color: white;
+		font-size: 25px;
+		font-family: 'Alegreya Sans SC', sans-serif;*/
+
+		/*font-family: 'Poiret One', cursive;*/
+		/*font-family: 'Work Sans', sans-serif;*/
+
+		}
+		.nav.navbar-nav.scroll li a {
+			color: #000000;
+			transition: color .3s linear;
+		}}
+
+} /* end media query for navbar desktop animation*/
+
+
+
 
 
 .navbar-btn {
@@ -114,27 +120,7 @@ body, html {
 
 
 
-/*bussiness header style*/
 
-
-<header class="business-header">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12  text-center">
-                    <br><br><br><br><br><br>
-                    <hr>
-                    <h1 class="tagline">Shaping Career, Empowering Future</h1>
-                    <hr>
-                    <p>ntroduce the visitor to the business using clear, informative text. </p>
-                    <p></p>Use well-targeted keywords within your sentences to make sure search engines can find the business.</p>
-                    <br>
-                    <a class="btn btn-success btn-md" href="#">Call to Action »</a>
-                </div>
-            </div>
-        </div>
-    </header>
-
-/*end bussiness header style*/
 
 
 .picture{

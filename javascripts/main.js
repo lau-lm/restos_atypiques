@@ -2,16 +2,16 @@
 $(document).ready(function () {
 
 
-	// change navbar background color and text color on scroll
+	// change navbar background color, margin, padding, and text color on scroll
 	$(window).scroll(function () {
 		if ($(document).scrollTop() > 100) {
 			$('.navbar').addClass('scroll');
 			$('.navbar-default .navbar-brand').addClass('scroll');
-			$('.nav.navbar-nav').addClass('scroll');
+			$('.nav.navbar-nav li a').addClass('scroll');
 		} else {
-			$('.navbar, .navbar-default .navbar-brand').removeClass('scroll'); // if not, change it back to transparent
+			$('.navbar, .navbar-default .navbar-brand').removeClass('scroll');
 			$('.navbar-default .navbar-brand').removeClass('scroll');
-			$('.nav.navbar-nav').removeClass('scroll');
+			$('.nav.navbar-nav li a').removeClass('scroll');
 		}
 	});
 
