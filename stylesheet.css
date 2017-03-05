@@ -1,5 +1,6 @@
 body, html {
 	margin: 0;
+	padding: 0;
 }
 
 
@@ -25,16 +26,46 @@ body, html {
 .navbar {
 	padding: 20px 0;
 	background-color: transparent;
-	transition: background, margin-top .3s ease;
+	transition-property: background, padding, height;
+	transition-duration: .3s;
+	transition-timing-function: ease;
 	border: 0;
-	margin-top: 20px;
+	height: 120px;
+	padding-top: 40px;
+	}
+
+.navbar.scroll {
+	background-color: rgba(255,255,255,.9);
+	box-shadow: 0px 1px 50px #aaa; 
+	margin-top: 0;
+	height: 100px;
+	padding-top: 20px;
+	transition-property: background, padding, height;
+	transition-duration: .3s;
+	transition-timing-function: ease;
 	}
 
 .navbar-default .navbar-brand {
-	color: white;
+	color: white; 
+	font-size: 50px;
+	font-family: 'Poiret One', cursive;
+	margin-left: 40px!important;
+	transition-property: margin, color, font-size;
+	transition-duration: .3s;
+	transition-timing-function: ease;
+}
+
+.navbar-default .navbar-brand.scroll {
+	color: black;
 	font-size: 40px;
 	font-family: 'Poiret One', cursive;
+	margin-left: 10px!important;
+	transition-property: margin, color, font-size;
+	transition-duration: .3s;
+	transition-timing-function: ease;
 }
+
+
 
 @media screen and (min-width: 768px) {
 .navbar .navbar-nav {
@@ -54,8 +85,15 @@ body, html {
 
  }
 
+ .nav.navbar-nav.scroll li a {
+	 color: #000000;
+	 transition: color .3s linear;
+ }
+
 .navbar .navbar-collapse {
   text-align: center;
+	color: #ffffff;
+	transition: color .3s linear;
 }
 
 
@@ -70,11 +108,7 @@ body, html {
 	font-weight: bold
 	}
 
-	.scroll-active {
-		background-color: rgba(255,255,255,.9);
-		box-shadow: 0px 1px 50px #aaa; 
-		margin-top: 0;
-	}
+
 
 /*fin navbar style*/
 

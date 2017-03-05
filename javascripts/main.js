@@ -5,13 +5,13 @@ $(document).ready(function () {
 	// change navbar background color and text color on scroll
 	$(window).scroll(function () {
 		if ($(document).scrollTop() > 100) {
-			$('.navbar').addClass('scroll-active');
-			$('.nav.navbar-nav li a').css('color', '#000000');
-			$('.navbar-default .navbar-brand').css('color', '#000000');
+			$('.navbar').addClass('scroll');
+			$('.navbar-default .navbar-brand').addClass('scroll');
+			$('.nav.navbar-nav').addClass('scroll');
 		} else {
-			$('.navbar, .navbar-default .navbar-brand').removeClass('scroll-active'); // if not, change it back to transparent
-			$('.nav.navbar-nav li a').css('color', '#ffffff');
-			$('.navbar-default .navbar-brand').css('color', '#ffffff');
+			$('.navbar, .navbar-default .navbar-brand').removeClass('scroll'); // if not, change it back to transparent
+			$('.navbar-default .navbar-brand').removeClass('scroll');
+			$('.nav.navbar-nav').removeClass('scroll');
 		}
 	});
 
