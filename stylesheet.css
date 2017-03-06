@@ -269,3 +269,28 @@ footer .footer-below {
 .fa {
 	color: black;
 }
+
+
+.modal-content{
+width: 600px;
+margin: 0 auto;
+}
+.animated{
+	text-align: center;
+	
+}
+.close-animatedModal{
+	width: 2.5em;
+	height: 2.5em;
+	border-radius: 2.5em;
+	background-color: lightgray;
+	margin: 1em auto 2em auto;
+	
+}
+#closeModal{
+	width: 2em;
+	height: 2em;
+	margin: 0.25em 0.25em 0.25em 0.25em;
+}
+#animatedModal{
+}
