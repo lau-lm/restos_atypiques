@@ -1,0 +1,17 @@
+{
+  "name": "restos_atypiques",
+  "description": "",
+  "main": "",
+  "authors": [
+    "hy-lau <l.magnaudet@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/hy-lau/restos_atypiques",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

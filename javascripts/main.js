@@ -14,6 +14,18 @@ $(document).ready(function () {
 	});
 
 
+	// active menu itemps on scroll
+
+	// si le scroll est supérieur à mon ancre #1, je veux que l'élément #1 ait la class active
+	// si le scroll est supérieur à mon ancre #2, je veux que l'élément #2 ait la class active
+
+	$(window).scroll(function () {
+		console.log($(document).scrollTop())
+	});
+
+
+
+
 
 	$('#map').googleMap({
 		zoom: 6, // Initial zoom level (optional)
@@ -47,4 +59,11 @@ $(document).ready(function () {
 	$('#map').addMarker({
 		coords: [48.4037414, 2.6921273],
 	});
+
+
+
+
+
+
+
 });
