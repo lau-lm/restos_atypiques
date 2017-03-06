@@ -7,9 +7,17 @@ body, html {
 /*header parallax style*/
 
 .parallax-window {
-	background-color: rgba(0,0,0,.4);
+	background-color: rgba(0,0,0,.3);
 	width: 100%;
 	min-height: 700px;
+}
+
+
+.parallaxText {
+	color: white;
+	font-size: 20px;
+	text-align: center;
+	font-family: 'Poiret One', cursive;
 }
 
 
@@ -69,7 +77,9 @@ body, html {
 	font-size: 50px;
 	font-family: 'Poiret One', cursive;
 	margin-left: 40px!important;
-	transition: margin, color, font-size .3s ease;
+	transition-property: margin, color, font-size;
+	transition-duration: .3s;
+	transition-timing-function: ease;
 }
 
 .navbar-default .navbar-brand.scroll {

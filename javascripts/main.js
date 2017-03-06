@@ -146,6 +146,17 @@ $(document).ready(function () {
   $("#demo01").animatedModal('color', '100,100,100');
 
 
+  // animate navbar on scroll
+  $(window).scroll(function () {
+    if ($(document).scrollTop() > 100) {
+      $('.navbar, .navbar-default .navbar-brand, .navbar-brand img, .navbar-collapse').addClass('scroll');
+    } else {
+      $('.navbar, .navbar-default .navbar-brand, .navbar-brand img, .navbar-collapse').removeClass('scroll');
+    }
+  });
+
+
+
 });
 
 
