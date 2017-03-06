@@ -4,9 +4,7 @@ body, html {
 }
 
 
-/*header style*/
-
-
+/*header parralax style*/
 
 .parallax-window {
 	background-color: rgba(0,0,0,.4);
@@ -15,54 +13,28 @@ body, html {
 }
 
 
+
 /*navbar style*/
 
 /*navbar desktop style & animation*/
 
 @media screen and (min-width: 768px) {
 	.navbar {
-		padding: 20px 0;
 		background-color: transparent;
-		transition-property: background, padding, height;
-		transition-duration: .3s;
-		transition-timing-function: ease;
 		border: 0;
 		height: 100px;
 		padding-top: 30px;
+		transition: background, padding, height .3s ease;
 		}
 
 	.navbar.scroll {
 		background-color: rgba(0,0,0,.7);
 		box-shadow: 0px 1px 50px #aaa; 
-		margin-top: 0;
 		height: 65px;
 		padding-top: 5px;
-		transition-property: background, padding, height;
-		transition-duration: .3s;
-		transition-timing-function: ease;
+		transition: background, padding, height .3s ease;
 		}
 
-
-	/*.navbar-default .navbar-brand {
-		color: white; 
-		font-size: 30px;
-		font-weight: bold;
-		font-family: 'Poiret One', cursive;
-		margin-left: 200px!important;
-		transition-property: margin, color, font-size;
-		transition-duration: .3s;
-		transition-timing-function: ease;
-	}
-
-	.navbar-default .navbar-brand.scroll {
-		color: black;
-		font-size: 20px;
-		font-family: 'Poiret One', cursive;
-		margin-left: 0px!important;
-		transition-property: margin, color, font-size;
-		transition-duration: .3s;
-		transition-timing-function: ease;
-	}*/
 
 	.navbar-default .navbar-brand {
 		padding: 0!important;
@@ -73,25 +45,22 @@ body, html {
 		width:150px;
 		height: auto;
 		margin-left: 50px;
-		transition-property: margin, width;
-		transition-duration: .3s;
-		transition-timing-function: ease;
+		transition: margin, width .3s ease;
 	}
 
 	.navbar-brand .scroll {
 		width:50px;
 		height: auto;
 		margin-left: 40px;
-		transition-property: margin, width;
-		transition-duration: .3s;
-		transition-timing-function: ease;
+		transition: margin, width .3s ease;
 	}
 
-	.navbar .navbar-nav {
+	/*menu center items*/
+	.navbar .navbar-nav { 
 		display: inline-block;
 		float: none;
 		vertical-align: top;
-		}
+	}
 		
 	.navbar .navbar-collapse {
 		text-align: center;
@@ -104,12 +73,9 @@ body, html {
 		position: relative;
 		text-decoration: none;
 		font-family: 'Poiret One', cursive;
-		/*font-family: 'Alegreya Sans SC', sans-serif;*/
-		/*font-family: 'Work Sans', sans-serif;*/
-
 	}
 
-	/*underline hover effect  desktop*/
+	/*underline hover effect desktop*/
 	.nav.navbar-nav li a:hover {
 			color: #FDD835!important;
 		}
@@ -134,11 +100,9 @@ body, html {
 		-webkit-transform: scaleX(1);
 		transform: scaleX(1);
 	}
+	/*end underline hover effect desktop*/
 
-	.navbar-fixed-top .active a {
-			color: #FDD835!important;
-			background-color: transparent!important;
-	}
+
 
 	.navbar-btn {
 		margin-right: 80px;
@@ -151,7 +115,8 @@ body, html {
 		font-weight: bold
 		}
 
-} /* end navbar desktop style*/
+} 
+/* end navbar desktop style*/
 
 
 

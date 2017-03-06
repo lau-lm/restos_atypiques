@@ -2,20 +2,15 @@
 $(document).ready(function () {
 
 
-	// change navbar background color, margin, padding, and text color on scroll
+	// animate navbar on scroll
 	$(window).scroll(function () {
 		if ($(document).scrollTop() > 100) {
-			$('.navbar').addClass('scroll');
-			$('.navbar-default .navbar-brand').addClass('scroll');
-			$('.navbar-brand img').addClass('scroll');
-			$('.navbar-collapse').addClass('scroll');
+			$('.navbar, .navbar-default .navbar-brand, .navbar-brand img, .navbar-collapse').addClass('scroll');
 		} else {
-			$('.navbar, .navbar-default .navbar-brand').removeClass('scroll');
-			$('.navbar-default .navbar-brand').removeClass('scroll');
-			$('.navbar-brand img').removeClass('scroll');
-			$('.navbar-collapse').removeClass('scroll');
+			$('.navbar, .navbar-default .navbar-brand, .navbar-brand img, .navbar-collapse').removeClass('scroll');
 		}
 	});
+
 
 
 
