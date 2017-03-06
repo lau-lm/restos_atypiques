@@ -69,9 +69,7 @@ body, html {
 	font-size: 50px;
 	font-family: 'Poiret One', cursive;
 	margin-left: 40px!important;
-	transition-property: margin, color, font-size;
-	transition-duration: .3s;
-	transition-timing-function: ease;
+	transition: margin, color, font-size .3s ease;
 }
 
 .navbar-default .navbar-brand.scroll {
@@ -79,9 +77,7 @@ body, html {
 	font-size: 40px;
 	font-family: 'Poiret One', cursive;
 	margin-left: 10px!important;
-	transition-property: margin, color, font-size;
-	transition-duration: .3s;
-	transition-timing-function: ease;
+	transition: margin, color, font-size .3s ease;
 }
 
 	.nav.navbar-nav li a {
