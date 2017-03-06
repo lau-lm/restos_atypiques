@@ -3,7 +3,7 @@
   "description": "",
   "main": "",
   "authors": [
-    "hy-lau <l.magnaudet@gmail.com>"
+    "florian leroux <f.j.j.leroux@gmail.com>"
   ],
   "license": "MIT",
   "homepage": "https://github.com/hy-lau/restos_atypiques",
@@ -13,5 +13,8 @@
     "bower_components",
     "test",
     "tests"
-  ]
+  ],
+  "dependencies": {
+    "animatedmodal": "*"
+  }
 }
