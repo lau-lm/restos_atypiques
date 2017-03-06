@@ -1,38 +1,176 @@
-body{
-	font-family: 'Open Sans', sans-serif;
+body, html {
+	margin: 0;
+	padding: 0;
 }
+
+
+/*header parallax style*/
+
+.parallax-window {
+	background-color: rgba(0,0,0,.4);
+	width: 100%;
+	min-height: 700px;
+}
+
 
 /*navbar style*/
 
-.navbar {
-	padding: 20px 0;
-	background-color: #233140;
-}
-
-.navbar-default .navbar-brand {
-	color: white;
-	font-family: 'Delius Unicase', cursive;
-	font-size: 2.2em;
-}
+/*navbar desktop style & animation*/
 
 @media screen and (min-width: 768px) {
-.navbar .navbar-nav {
-  display: inline-block;
-  float: none;
-  vertical-align: top;
-	font-size: 18px;
+	.navbar {
+		background-color: transparent;
+		border: 0;
+		height: 100px;
+		padding-top: 30px;
+		transition: background, padding, height .3s ease;
+		}
+
+	.navbar.scroll {
+		background-color: rgba(0,0,0,.7);
+		box-shadow: 0px 1px 50px #aaa; 
+		margin-top: 0;
+		height: 65px;
+		padding-top: 5px;
+		transition: background, padding, height .3s ease;
+		}
+
+	.navbar-default .navbar-brand {
+		padding: 0!important;
+		margin: 0!important;
+		}
+
+	.navbar-brand img {
+		width:150px;
+		height: auto;
+		margin-left: 50px;
+		transition: margin, width .3s ease;
+	}
+
+	.navbar-brand .scroll {
+		width:50px;
+		height: auto;
+		margin-left: 40px;
+		transition: margin, width .3s ease;
+	}
+
+/*center menu items*/
+	.navbar .navbar-nav {
+		display: inline-block;
+		float: none;
+		vertical-align: top;
+		}
+		
+	.navbar .navbar-collapse {
+		text-align: center;
+	}
+.navbar-default .navbar-brand {
+	color: white; 
+	font-size: 50px;
+	font-family: 'Poiret One', cursive;
+	margin-left: 40px!important;
+	transition-property: margin, color, font-size;
+	transition-duration: .3s;
+	transition-timing-function: ease;
 }
 
-.navbar .navbar-collapse {
-  text-align: center;
-}}
+.navbar-default .navbar-brand.scroll {
+	color: black;
+	font-size: 40px;
+	font-family: 'Poiret One', cursive;
+	margin-left: 10px!important;
+	transition-property: margin, color, font-size;
+	transition-duration: .3s;
+	transition-timing-function: ease;
+}
 
-.navbar-btn {
-	margin-right: 80px;
-	clear: both;
-	float: none;
-	font-size: 18px;
+	.nav.navbar-nav li a {
+		color: #ffffff;
+		font-size: 20px;
+		font-weight: bold;
+		position: relative;
+		text-decoration: none;
+		font-family: 'Poiret One', cursive;
 	}
+
+	/*underline hover effect  desktop*/
+	.nav.navbar-nav li a:hover {
+			color: #FDD835!important;
+		}
+
+	.nav.navbar-nav li a:before {
+		content: "";
+		position: absolute;
+		width: 100%;
+		height: 1.5px;
+		bottom: 0;
+		left: 0;
+		background-color: #FDD835;
+		visibility: hidden;
+		-webkit-transform: scaleX(0);
+		transform: scaleX(0);
+		-webkit-transition: all 0.3s ease-in-out 0s;
+		transition: all 0.3s ease-in-out 0s;
+	}
+
+	.nav.navbar-nav li a:hover:before {
+		visibility: visible;
+		-webkit-transform: scaleX(1);
+		transform: scaleX(1);
+	}
+
+	.navbar-btn {
+		margin-right: 80px;
+		clear: both;
+		float: none;
+		font-size: 18px;
+		border-radius:0;
+		background-color: #FDD835;
+		font-family: 'Alegreya Sans SC', sans-serif;
+		font-weight: bold
+		}
+
+} /* end navbar desktop style*/
+
+
+
+
+/*navbar style mobile*/
+
+@media screen and (max-width: 768px) {
+	.navbar {
+		background-color: rgba(0,0,0,.7);
+		box-shadow: 0px 1px 50px #aaa; 
+		border: 0;
+	}
+
+	.navbar-default .navbar-brand {
+		color: #000000; 
+		font-size: 20px;
+		font-family: 'Poiret One', cursive;
+		}
+	
+	.navbar-brand img {
+		width: 40px;
+		height: auto;
+	}
+	.navbar-default .navbar-brand {
+		padding: 5px 0 0 15px;
+	}
+	
+		.navbar-default .navbar-toggle { 
+  border-color: transparent; 
+	}
+	.navbar-default .navbar-toggle .icon-bar {
+    background-color: #FDD835;
+	}
+	.navbar-default .navbar-toggle:focus {
+ 		background-color: transparent;
+	}	
+}
+/*end navbar style mobile*/
+
+
 
 /*fin navbar style*/
 

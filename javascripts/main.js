@@ -1,5 +1,20 @@
 
 $(document).ready(function () {
+
+
+
+
+	// animate navbar on scroll
+	$(window).scroll(function () {
+		if ($(document).scrollTop() > 100) {
+			$('.navbar, .navbar-default .navbar-brand, .navbar-brand img, .navbar-collapse').addClass('scroll');
+		} else {
+			$('.navbar, .navbar-default .navbar-brand, .navbar-brand img, .navbar-collapse').removeClass('scroll');
+		}
+	});
+
+
+
 	$('#map').googleMap({
 		zoom: 6, // Initial zoom level (optional)
 		coords: [46.1270048, 4.1599028], // Map center (optional)
