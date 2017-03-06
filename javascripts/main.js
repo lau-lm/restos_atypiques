@@ -93,10 +93,12 @@ $(document).ready(function () {
   marker6.setMap(map);
 
   marker1.addListener('click', function () {
+
     $('#mapText').text('Restaurant de Lyon');
     $('#horaireMapResto').html('Lundi au vendredi :<br/>11h30 à 22h');
     $('#adresseMap').html('17 Rue Delandine<br/>69002 Lyon');
     $('#descriptionMapResto').html('Le restaurant de Lyon est dans une prison ! Quoi de plus atypique que de manger où les condammés devaient purger leur peine');
+    $("#demo01").trigger('click');
   });
   marker2.addListener('click', function () {
     $('#mapText').text('Restaurant de La Loupe');
@@ -129,6 +131,7 @@ $(document).ready(function () {
     $('#descriptionMapResto').html('Le restaurant de Fontainebleau');
   });
 
+  $("#demo01").animatedModal('color', '100,100,100');
 
 
 });
