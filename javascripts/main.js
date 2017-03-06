@@ -1,4 +1,16 @@
 $(document).ready(function () {
+
+
+  // animate navbar on scroll
+  $(window).scroll(function () {
+    if ($(document).scrollTop() > 100) {
+      $('.navbar, .navbar-default .navbar-brand, .navbar-brand img, .navbar-collapse').addClass('scroll');
+    } else {
+      $('.navbar, .navbar-default .navbar-brand, .navbar-brand img, .navbar-collapse').removeClass('scroll');
+    }
+  });
+
+
   // init of the style of the map
   let styles = [
     {
