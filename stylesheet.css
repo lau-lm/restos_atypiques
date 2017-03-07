@@ -3,16 +3,6 @@ body, html {
 	padding: 0;
 }
 
-
-/*header parallax style*/
-
-.parallax-window {
-	background-color: rgba(0,0,0,.4);
-	width: 100%;
-	min-height: 700px;
-}
-
-
 /*navbar style*/
 
 /*navbar desktop style & animation*/
@@ -27,8 +17,8 @@ body, html {
 		}
 
 	.navbar.scroll {
-		background-color: rgba(0,0,0,.7);
-		box-shadow: 0px 1px 50px #aaa; 
+		background-color: rgba(30,40,60,.7);		
+		box-shadow: 0px 1px 50px #606161; 
 		margin-top: 0;
 		height: 65px;
 		padding-top: 5px;
@@ -135,8 +125,8 @@ body, html {
 
 @media screen and (max-width: 768px) {
 	.navbar {
-		background-color: rgba(0,0,0,.7);
-		box-shadow: 0px 1px 50px #aaa; 
+		background-color: rgba(30,40,60,.7);		
+		box-shadow: 0px 1px 50px #606161; 
 		border: 0;
 	}
 
@@ -170,19 +160,21 @@ body, html {
 
 /*fin navbar style*/
 
+/*carousel style*/
+
 .picture{
 	max-width: 100%;
 }
 
 .carousel {
-	margin: 52px 0 10px 0;
+	margin: 0;
 	background-color: #0B0B0B;
 	display: block;
 }
 
 .slider-size {
 min-height: 200px;
-max-height: 500px;
+max-height: 1400px;
 }
 
 /*removes shadows on side*/
@@ -195,6 +187,8 @@ max-height: 500px;
 .carousel-inner > .item > a > img{
 margin: auto;
 }
+
+/*fin carousel style*/
 
 .avisDiv .glyphicon{
 	color: goldenrod;
