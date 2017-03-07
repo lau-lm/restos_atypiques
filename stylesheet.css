@@ -3,7 +3,6 @@ body, html {
 	padding: 0;
 }
 
-
 /*header parallax style*/
 
 .parallax-window {
@@ -29,17 +28,17 @@ body, html {
 	.navbar {
 		background-color: transparent;
 		border: 0;
-		height: 100px;
+		height: 120px;
 		padding-top: 30px;
 		transition: background, padding, height .3s ease;
 		}
 
 	.navbar.scroll {
-		background-color: rgba(0,0,0,.7);
-		box-shadow: 0px 1px 50px #aaa; 
+		background-color: rgba(30,40,60,.7);		
+		box-shadow: 0px 1px 50px #606161; 
 		margin-top: 0;
-		height: 65px;
-		padding-top: 5px;
+		height: 80px;
+		padding-top: 10px;
 		transition: background, padding, height .3s ease;
 		}
 
@@ -56,7 +55,7 @@ body, html {
 	}
 
 	.navbar-brand .scroll {
-		width:50px;
+		width:58px;
 		height: auto;
 		margin-left: 40px;
 		transition: margin, width .3s ease;
@@ -77,9 +76,7 @@ body, html {
 	font-size: 50px;
 	font-family: 'Poiret One', cursive;
 	margin-left: 40px!important;
-	transition-property: margin, color, font-size;
-	transition-duration: .3s;
-	transition-timing-function: ease;
+	transition: margin, color, font-size .3s ease;
 }
 
 .navbar-default .navbar-brand.scroll {
@@ -92,7 +89,7 @@ body, html {
 
 	.nav.navbar-nav li a {
 		color: #ffffff;
-		font-size: 20px;
+		font-size: 24px;
 		font-weight: bold;
 		position: relative;
 		text-decoration: none;
@@ -129,12 +126,32 @@ body, html {
 		margin-right: 80px;
 		clear: both;
 		float: none;
-		font-size: 18px;
+		font-size: 20px;
 		border-radius:0;
 		background-color: #FDD835;
 		font-family: 'Alegreya Sans SC', sans-serif;
 		font-weight: bold
 		}
+
+.currentMenu {
+	color: #FDD835;
+	/*border-bottom: solid;
+	border-color: #FDD835;
+	transition: border 0.3s ease-in-out 0s;*/
+		/*content: "";
+		position: absolute;
+		width: 100%;
+		height: 1.5px;
+		bottom: 0;
+		left: 0;
+		background-color: #FDD835;
+		visibility: hidden;
+		-webkit-transform: scaleX(0);
+		transform: scaleX(0);
+		-webkit-transition: all 0.3s ease-in-out 0s;
+		transition: all 0.3s ease-in-out 0s;*/
+
+}
 
 } /* end navbar desktop style*/
 
@@ -145,8 +162,8 @@ body, html {
 
 @media screen and (max-width: 768px) {
 	.navbar {
-		background-color: rgba(0,0,0,.7);
-		box-shadow: 0px 1px 50px #aaa; 
+		background-color: rgba(30,40,60,.7);		
+		box-shadow: 0px 1px 50px #606161; 
 		border: 0;
 	}
 
@@ -180,19 +197,21 @@ body, html {
 
 /*fin navbar style*/
 
+/*carousel style*/
+
 .picture{
 	max-width: 100%;
 }
 
 .carousel {
-	margin: 52px 0 10px 0;
+	margin: 0;
 	background-color: #0B0B0B;
 	display: block;
 }
 
 .slider-size {
 min-height: 200px;
-max-height: 500px;
+max-height: 1400px;
 }
 
 /*removes shadows on side*/
@@ -205,6 +224,8 @@ max-height: 500px;
 .carousel-inner > .item > a > img{
 margin: auto;
 }
+
+/*fin carousel style*/
 
 .avisDiv .glyphicon{
 	color: goldenrod;
