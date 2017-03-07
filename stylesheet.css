@@ -29,7 +29,7 @@ body, html {
 	.navbar {
 		background-color: transparent;
 		border: 0;
-		height: 100px;
+		height: 120px;
 		padding-top: 30px;
 		transition: background, padding, height .3s ease;
 		}
@@ -38,8 +38,8 @@ body, html {
 		background-color: rgba(0,0,0,.7);
 		box-shadow: 0px 1px 50px #aaa; 
 		margin-top: 0;
-		height: 65px;
-		padding-top: 5px;
+		height: 80px;
+		padding-top: 10px;
 		transition: background, padding, height .3s ease;
 		}
 
@@ -56,7 +56,7 @@ body, html {
 	}
 
 	.navbar-brand .scroll {
-		width:50px;
+		width:58px;
 		height: auto;
 		margin-left: 40px;
 		transition: margin, width .3s ease;
@@ -77,9 +77,7 @@ body, html {
 	font-size: 50px;
 	font-family: 'Poiret One', cursive;
 	margin-left: 40px!important;
-	transition-property: margin, color, font-size;
-	transition-duration: .3s;
-	transition-timing-function: ease;
+	transition-property: margin, color, font-size .3s ease;
 }
 
 .navbar-default .navbar-brand.scroll {
@@ -92,7 +90,7 @@ body, html {
 
 	.nav.navbar-nav li a {
 		color: #ffffff;
-		font-size: 20px;
+		font-size: 24px;
 		font-weight: bold;
 		position: relative;
 		text-decoration: none;
@@ -129,7 +127,7 @@ body, html {
 		margin-right: 80px;
 		clear: both;
 		float: none;
-		font-size: 18px;
+		font-size: 20px;
 		border-radius:0;
 		background-color: #FDD835;
 		font-family: 'Alegreya Sans SC', sans-serif;
