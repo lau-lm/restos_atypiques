@@ -110,6 +110,7 @@ $(document).ready(function () {
     $('#horaireMapResto').html('Lundi au vendredi :<br/>11h30 à 22h');
     $('#adresseMap').html('17 Rue Delandine<br/>69002 Lyon');
     $('#descriptionMapResto').html('Le restaurant de Lyon est dans une prison ! Quoi de plus atypique que de manger où les condammés devaient purger leur peine');
+
     $("#demo01").trigger('click');
   });
   marker2.addListener('click', function () {
@@ -117,33 +118,43 @@ $(document).ready(function () {
     $('#horaireMapResto').html('Mardi au samedi :<br/>19h30 à 23h');
     $('#adresseMap').html('18 Rue de la gare<br/>28240 La Loupe');
     $('#descriptionMapResto').html('Le restaurant de La Loupe');
+
+    $("#demo01").trigger('click');
   });
   marker3.addListener('click', function () {
     $('#mapText').text('Restaurant de Toulouse');
     $('#horaireMapResto').html('Lundi au vendredi :<br/>11h30 à 22h');
     $('#adresseMap').html('1 Place de la bourse<br/>31000 Toulouse');
     $('#descriptionMapResto').html('Le restaurant de Toulouse');
+
+    $("#demo01").trigger('click');
   });
   marker4.addListener('click', function () {
     $('#mapText').text('Restaurant de Orléans');
     $('#horaireMapResto').html('Lundi au vendredi :<br/>11h30 à 22h');
     $('#adresseMap').html('1 Avenue du champ de Mars<br/>45100 Orléans');
     $('#descriptionMapResto').html('Le restaurant d\'Orléans');
+
+    $("#demo01").trigger('click');
   });
   marker5.addListener('click', function () {
     $('#mapText').text('Restaurant de Bordeaux');
     $('#horaireMapResto').html('Lundi au vendredi :<br/>11h30 à 22h');
     $('#adresseMap').html('15 Place Canteloup<br/>33800 Bordeaux');
     $('#descriptionMapResto').html('Le restaurant de Bordeaux');
+
+    $("#demo01").trigger('click');
   });
   marker6.addListener('click', function () {
     $('#mapText').text('Restaurant de Fontainebleau');
     $('#horaireMapResto').html('Lundi au vendredi :<br/>11h30 à 22h');
     $('#adresseMap').html('35 rue Saint Honoré<br/>77300 Fontainebleau');
     $('#descriptionMapResto').html('Le restaurant de Fontainebleau');
+
+    $("#demo01").trigger('click');
   });
 
-  $("#demo01").animatedModal('color', '100,100,100');
+  $("#demo01").animatedModal();
 
 
   // animate navbar on scroll

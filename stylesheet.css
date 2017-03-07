@@ -301,6 +301,8 @@ margin: 0 auto;
 	width: 2em;
 	height: 2em;
 	margin: 0.25em 0.25em 0.25em 0.25em;
+	cursor: pointer;
 }
 #animatedModal{
+	background-color: rgba(100,100,100,.7) !important;
 }
