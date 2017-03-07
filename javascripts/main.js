@@ -44,6 +44,7 @@ $(document).ready(function () {
   let mapOptions = {
     zoom: 6,
     center: new google.maps.LatLng(46.1270048, 4.1599028),
+    scrollwheel: false,
     mapTypeControlOptions: {
       mapTypeIds: [google.maps.MapTypeId.ROADMAP, 'map_style']
     }
