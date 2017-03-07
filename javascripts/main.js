@@ -46,6 +46,7 @@ $(document).ready(function () {
   let mapOptions = {
     zoom: 6,
     center: new google.maps.LatLng(46.1270048, 4.1599028),
+    scrollwheel: false,
     mapTypeControlOptions: {
       mapTypeIds: [google.maps.MapTypeId.ROADMAP, 'map_style']
     }
@@ -112,40 +113,57 @@ $(document).ready(function () {
     $('#horaireMapResto').html('Lundi au vendredi :<br/>11h30 à 22h');
     $('#adresseMap').html('17 Rue Delandine<br/>69002 Lyon');
     $('#descriptionMapResto').html('Le restaurant de Lyon est dans une prison ! Quoi de plus atypique que de manger où les condammés devaient purger leur peine');
+    $('#pictureMapResto').attr('src', 'img/resto_crypte.jpg');
+
     $("#demo01").trigger('click');
   });
   marker2.addListener('click', function () {
     $('#mapText').text('Restaurant de La Loupe');
     $('#horaireMapResto').html('Mardi au samedi :<br/>19h30 à 23h');
     $('#adresseMap').html('18 Rue de la gare<br/>28240 La Loupe');
-    $('#descriptionMapResto').html('Le restaurant de La Loupe');
+    $('#descriptionMapResto').html('Le restaurant de La Loupe vous plonge sous la mer des Caraïbes pour vous évader le temps d\'un repas');
+    $('#pictureMapResto').attr('src', 'img/resto_aquarium.jpg');
+
+    $("#demo01").trigger('click');
   });
   marker3.addListener('click', function () {
     $('#mapText').text('Restaurant de Toulouse');
     $('#horaireMapResto').html('Lundi au vendredi :<br/>11h30 à 22h');
     $('#adresseMap').html('1 Place de la bourse<br/>31000 Toulouse');
-    $('#descriptionMapResto').html('Le restaurant de Toulouse');
+    $('#descriptionMapResto').html('Le restaurant de Toulouse vous fera saliver dès votre arrivé avec les meilleurs jambons de la région.');
+    $('#pictureMapResto').attr('src', 'img/resto_jambon.jpg');
+
+    $("#demo01").trigger('click');
   });
   marker4.addListener('click', function () {
     $('#mapText').text('Restaurant de Orléans');
     $('#horaireMapResto').html('Lundi au vendredi :<br/>11h30 à 22h');
     $('#adresseMap').html('1 Avenue du champ de Mars<br/>45100 Orléans');
-    $('#descriptionMapResto').html('Le restaurant d\'Orléans');
+    $('#descriptionMapResto').html('Le restaurant d\'Orléans construit autour d\'un arbre vous rapprochera de la nature.');
+    $('#pictureMapResto').attr('src', 'img/resto_arbre.jpg');
+
+    $("#demo01").trigger('click');
   });
   marker5.addListener('click', function () {
     $('#mapText').text('Restaurant de Bordeaux');
     $('#horaireMapResto').html('Lundi au vendredi :<br/>11h30 à 22h');
     $('#adresseMap').html('15 Place Canteloup<br/>33800 Bordeaux');
-    $('#descriptionMapResto').html('Le restaurant de Bordeaux');
+    $('#descriptionMapResto').html('Le restaurant de Bordeaux sur la falaise donnant sur la Garonne ne vous laissera pas tomber avec ses délicieux poissons.');
+    $('#pictureMapResto').attr('src', 'img/resto_falaise.jpg');
+
+    $("#demo01").trigger('click');
   });
   marker6.addListener('click', function () {
     $('#mapText').text('Restaurant de Fontainebleau');
     $('#horaireMapResto').html('Lundi au vendredi :<br/>11h30 à 22h');
     $('#adresseMap').html('35 rue Saint Honoré<br/>77300 Fontainebleau');
-    $('#descriptionMapResto').html('Le restaurant de Fontainebleau');
+    $('#descriptionMapResto').html('Le restaurant de Fontainebleau positionné parfaitement en haut du Pic de Fontainebleau. La vue est magnifique vous ne trouvez pas?');
+    $('#pictureMapResto').attr('src', 'img/resto_pic.jpg');
+
+    $("#demo01").trigger('click');
   });
 
-  $("#demo01").animatedModal('color', '100,100,100');
+  $("#demo01").animatedModal();
 
 
   // animate navbar on scroll

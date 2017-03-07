@@ -170,42 +170,42 @@
 		</div>
 
 		<!--google maps-->
-		<div class="container">
-			<div id="mapDiv" class="row mapDiv">
-				<div class="col-xs-12 col-lg-9">
-					<div id="map"></div>
-				</div>
-				<div class=" col-xs-12 col-lg-3">
 
-				</div>
+		<div id="mapDiv" class="mapDiv">
+			<div>
+				<div id="map"></div>
+			</div>
+		</div>
+
+
+		<!--Call your modal-->
+		<a id="demo01" href="#animatedModal"></a>
+
+		<!--DEMO01-->
+		<div id="animatedModal">
+			<!--THIS IS IMPORTANT! to close the modal, the class name has to match the name given on the ID  class="close-animatedModal" -->
+			<div class="close-animatedModal">
+				<img id="closeModal" src="img/icon-close-128.png" alt="Fermer">
 			</div>
 
-
-			<!--Call your modal-->
-			<a id="demo01" href="#animatedModal"></a>
-
-			<!--DEMO01-->
-			<div id="animatedModal">
-				<!--THIS IS IMPORTANT! to close the modal, the class name has to match the name given on the ID  class="close-animatedModal" -->
-				<div class="close-animatedModal">
-					<img id="closeModal" src="img/icon-close-128.png" alt="Fermer">
-				</div>
-
-				<div class="modal-content">
-					<!--Your modal content goes here-->
-					<!--<h2>Restaurant de Lyon</h2>
+			<div class="modal-content">
+				<!--Your modal content goes here-->
+				<!--<h2>Restaurant de Lyon</h2>
 				<p>Lundi au vendredi :<br/>11h30 à 22h</p>
 				<p>17 Rue Delandine<br/>69002 Lyon</p>
 				<p>Le restaurant de Lyon est dans une prison ! Quoi de plus atypique que de manger où les condammés devaient purger leur
 					peine
 				</p>-->
-					<h2 id="mapText">Les restaurants atypiques en France</h2>
-					<p id='horaireMapResto'></p>
-					<p id='descriptionMapResto'></p>
-				</div>
+				<h2 id="mapText">Les restaurants atypiques en France</h2>
+				<img id="pictureMapResto" src="" alt="">
+				<p><br/></p>
+				<p id='horaireMapResto'></p>
+				<p id='adresseMap'></p>
+				<p id='descriptionMapResto'></p>
 			</div>
-
 		</div>
+
+
 
 
 		<!--parallax between carousel and gmap-->
