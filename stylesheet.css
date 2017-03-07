@@ -199,8 +199,9 @@ body, html {
 
 /*carousel style*/
 
-.picture{
+.avisDiv .picture{
 	max-width: 100%;
+	border-radius: 100%;
 }
 
 .carousel {
