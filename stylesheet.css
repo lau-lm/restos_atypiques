@@ -34,7 +34,7 @@ body, html {
 }
 
 .navbar.scroll {
-	background-color: rgba(0,0,0,.7);		
+	background-color: rgba(0,0,0,.75);		
 	box-shadow: 0px 1px 50px #606161; 
 	margin-top: 0;
 	height: 80px;
@@ -125,6 +125,40 @@ body, html {
 	transform: scaleX(1);
 }
 
+.navbar-btn {
+	margin-right: 80px;
+	clear: both;
+	float: none;
+	border-radius:0;
+	background-color: transparent;
+	border-style : solid;
+	border-left: 0;
+	border-right : 0;
+	border-color: #FDD835;
+	}
+
+	.navbar-btn a {
+	font-family: 'Alegreya Sans SC', sans-serif;
+	color: #FDD835;
+	font-weight: bold;
+	font-size: 21px;
+	text-decoration: none;
+	letter-spacing: 1.2px;
+	transition: all 280ms ease-in-out;
+	}
+
+	.navbar-btn a:hover {
+	letter-spacing: 2px;
+	font-size: 23px;
+	transition: all 280ms ease-in-out;
+	}
+
+} 
+/* end navbar desktop style*/
+
+
+
+
 
 /*active class to highlight menu on .scroll*/
 	.nav.navbar-nav .active a {
@@ -136,19 +170,6 @@ body, html {
 	background-color: transparent;
 }
 
-.navbar-btn {
-	margin-right: 80px;
-	clear: both;
-	float: none;
-	font-size: 20px;
-	border-radius:0;
-	background-color: #FDD835;
-	font-family: 'Alegreya Sans SC', sans-serif;
-	font-weight: bold
-	}
-
-} 
-/* end navbar desktop style*/
 
 
 
@@ -156,21 +177,16 @@ body, html {
 
 @media screen and (max-width: 768px) {
 	.navbar {
-		background-color: rgba(30,40,60,.7);		
+		background-color: rgba(0,0,0,.8);		
 		box-shadow: 0px 1px 50px #606161; 
 		border: 0;
-	}
-
-	.navbar-default .navbar-brand {
-		color: #000000; 
-		font-size: 20px;
-		font-family: 'Poiret One', cursive;
 	}
 
 	.navbar-brand img {
 		width: 40px;
 		height: auto;
 	}
+
 	.navbar-default .navbar-brand {
 		padding: 5px 0 0 15px;
 	}
@@ -179,15 +195,47 @@ body, html {
 		border-color: transparent; 
 		background-color: transparent;
 	}
+
 	.navbar-default .navbar-toggle .icon-bar {
 		background-color: #FDD835;
 	}
+
 	.navbar-default .navbar-toggle:hover {
 		background-color: transparent;
 	}	
+
 	.navbar-default .navbar-toggle:focus {
 		background-color: transparent;
 	}	
+
+	.nav.navbar-nav li a {
+	color: #ffffff;
+	font-size: 15px;
+	font-weight: bold;
+	text-decoration: none;
+	font-family: 'Poiret One', cursive;
+	}
+
+	.navbar-btn {
+	margin-left: 10px;
+	border-radius:0;
+	background-color: transparent;
+	border-style : solid;
+	border-left: 0;
+	border-right : 0;
+	border-color: #FDD835;
+	}
+
+	.navbar-btn a {
+	font-family: 'Alegreya Sans SC', sans-serif;
+	color: #FDD835;
+	font-weight: bold;
+	font-size: 15px;
+	text-decoration: none;
+	letter-spacing: 0.5px;
+	}
+
+
 }
 /*end navbar style mobile*/
 

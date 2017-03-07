@@ -215,7 +215,7 @@ $(document).ready(function () {
       $("li:eq(0)").removeClass('active');
     }
   }, {
-      offset: '50%'
+      offset: '100%'
     });
 
 
@@ -225,7 +225,7 @@ $(document).ready(function () {
       $("li:eq(1)").removeClass('active');
     }
   }, {
-      offset: '50%'
+      offset: '100%'
     });
 
 
@@ -235,7 +235,7 @@ $(document).ready(function () {
       $("li:eq(2)").removeClass('active');
     }
   }, {
-      offset: '50%'
+      offset: '100%'
     });
 
 });
