@@ -176,78 +176,67 @@ $(document).ready(function () {
   });
 
 
+
+
   // highlitgth li menu on scroll 
 
-  // $('.conceptDiv').waypoint(function (direction) {
-  //   $("li:eq(0)").addClass('active');
-  // });
-  // $('.mapDiv').waypoint(function (direction) {
-  //   $("li:eq(0)").removeClass('active');
-  //   $("li:eq(1)").addClass('active');
-  // });
-  // $('.avisDiv').waypoint(function (direction) {
-  //   $("li:eq(1)").removeClass('active');
-  //   $("li:eq(2)").addClass('active');
-  // });
-
-
-
-  // } else if (direction === 'up') {
-  //   $('.conceptDiv').waypoint(function (direction) {
-  //     $("li:eq(0)").removeClass('active');
-  //   });
-  //   $('.mapDiv').waypoint(function (direction) {
-  //     $("li:eq(1)").removeClass('active');
-  //     $("li:eq(0)").addClass('active');
-  //   });
-  //   $('.avisDiv').waypoint(function (direction) {
-  //     $("li:eq(2)").removeClass('active');
-  //     $("li:eq(1)").addClass('active');
-  //   });
-  // }
-
-
-  // highlight on scroll down
   $('.conceptDiv').waypoint(function (direction) {
     if (direction === 'down') {
-      $("li:eq(0)").addClass('active');;
+      $("li:eq(0)").addClass('active');
     }
-  });
+  }, {
+      offset: '50%'
+    });
+
+
+
 
   $('.mapDiv').waypoint(function (direction) {
     if (direction === 'down') {
       $("li:eq(0)").removeClass('active');
       $("li:eq(1)").addClass('active');
     }
-  });
+  }, {
+      offset: '50%'
+    });
 
   $('.avisDiv').waypoint(function (direction) {
     if (direction === 'down') {
       $("li:eq(1)").removeClass('active');
       $("li:eq(2)").addClass('active');
     }
-  });
+  }, {
+      offset: '50%'
+    });
 
   // highlight on scroll up
   $('.conceptDiv').waypoint(function (direction) {
     if (direction === 'up') {
       $("li:eq(0)").removeClass('active');
     }
-  });
+  }, {
+      offset: '50%'
+    });
+
 
   $('.mapDiv').waypoint(function (direction) {
     if (direction === 'up') {
       $("li:eq(0)").addClass('active');
       $("li:eq(1)").removeClass('active');
     }
-  });
+  }, {
+      offset: '50%'
+    });
+
 
   $('.avisDiv').waypoint(function (direction) {
     if (direction === 'up') {
       $("li:eq(1)").addClass('active');
       $("li:eq(2)").removeClass('active');
     }
-  });
+  }, {
+      offset: '50%'
+    });
 
 });
 
