@@ -192,7 +192,7 @@ $(document).ready(function () {
   // highlight on scroll down
   $('.conceptDiv').waypoint(function (direction) {
     if (direction === 'down') {
-      $('li:eq(0)').addClass('active');;
+      $("li:eq(0)").addClass('active');;
     }
   });
 
