@@ -3,6 +3,7 @@ body, html {
 	padding: 0;
 }
 
+
 /*navbar style*/
 
 /*navbar desktop style & animation*/
@@ -59,7 +60,9 @@ body, html {
 	font-size: 50px;
 	font-family: 'Poiret One', cursive;
 	margin-left: 40px!important;
-	transition: margin, color, font-size .3s ease;
+	transition-property: margin, color, font-size;
+	transition-duration: .3s;
+	transition-timing-function: ease;
 }
 
 .navbar-default .navbar-brand.scroll {
@@ -262,4 +265,29 @@ footer .footer-below {
 
 .fa {
 	color: black;
+}
+
+
+.modal-content{
+width: 600px;
+margin: 0 auto;
+}
+.animated{
+	text-align: center;
+	
+}
+.close-animatedModal{
+	width: 2.5em;
+	height: 2.5em;
+	border-radius: 2.5em;
+	background-color: lightgray;
+	margin: 1em auto 2em auto;
+	
+}
+#closeModal{
+	width: 2em;
+	height: 2em;
+	margin: 0.25em 0.25em 0.25em 0.25em;
+}
+#animatedModal{
 }
