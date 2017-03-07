@@ -245,6 +245,7 @@ p{
 }
 .avisTexte{
 	height: 100%;
+	margin: auto 0 auto 0;
 }
 
 #map{
@@ -340,5 +341,8 @@ border-radius: 0;
 	background-color: rgba(0,0,0,.7) !important;
 }
 #pictureMapResto{
+	width: 100%;
+}
+#conceptDiv .picture{
 	width: 100%;
 }
