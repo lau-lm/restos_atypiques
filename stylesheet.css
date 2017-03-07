@@ -280,29 +280,37 @@ footer .footer-below {
 	color: black;
 }
 
-
+/*the box where we put the description of the restaurant*/
 .modal-content{
 width: 600px;
 margin: 0 auto;
+padding: 15px;
 }
 .animated{
 	text-align: center;
 	
 }
 .close-animatedModal{
+	/*div that containe the close modal*/
 	width: 2.5em;
 	height: 2.5em;
 	border-radius: 2.5em;
-	background-color: lightgray;
+	background-color: #FDD835;
 	margin: 1em auto 2em auto;
 	
 }
 #closeModal{
+	/*picture of the class that close the modal*/
 	width: 2em;
 	height: 2em;
 	margin: 0.25em 0.25em 0.25em 0.25em;
+	/*change the cursor to the little hand*/
 	cursor: pointer;
 }
 #animatedModal{
-	background-color: rgba(100,100,100,.7) !important;
+	/*background color of the modal*/
+	background-color: rgba(7,29,60,.8) !important;
+}
+#pictureMapResto{
+	width: 100%;
 }
