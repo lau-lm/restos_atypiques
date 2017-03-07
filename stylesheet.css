@@ -123,6 +123,10 @@ body, html {
 		transform: scaleX(1);
 	}
 
+.active li {
+		background-color: red;
+	}
+
 	.navbar-btn {
 		margin-right: 80px;
 		clear: both;
