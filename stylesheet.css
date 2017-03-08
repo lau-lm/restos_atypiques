@@ -323,7 +323,7 @@ h2 .textHighlight {
 /*mapDiv style*/ 
 
 .mapDiv {
-padding: 8em 0 10em 0;
+padding: 8em 0 0 0;
 }
 
 #map{
@@ -336,12 +336,16 @@ margin: auto;
 /*avisDiv style */
 
 .avisDiv .glyphicon{
-	color: goldenrod;
+	color: #FDD835;
 	font-size: 2em;
 }
 
 .avisDiv {
-	margin: 9em 0;
+	margin: 8em 0;
+}
+
+.avisDiv .underTitle {
+	margin-bottom: 4em;
 }
 
 .avis{
