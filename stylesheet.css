@@ -468,7 +468,7 @@ border-radius: 0;
 	text-align: center;
 	
 }
-.close-animatedModal{
+.close-animatedModal, .close-animatedModal2{
 	/*div that containe the close modal*/
 	width: 2.5em;
 	height: 2.5em;
@@ -477,7 +477,7 @@ border-radius: 0;
 	margin: 1em auto 2em auto;
 	
 }
-#closeModal{
+#closeModal, #closeModal2{
 	/*picture of the class that close the modal*/
 	width: 2em;
 	height: 2em;
@@ -486,7 +486,7 @@ border-radius: 0;
 	cursor: pointer;
 }
 
-#animatedModal{
+#animatedModal, #animatedModal2{
 	/*background color of the modal*/
 	background-color: rgba(0,0,0,.7) !important;
 }
