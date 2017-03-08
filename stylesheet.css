@@ -149,7 +149,7 @@ body, html {
 	transition: all 280ms ease-in-out;
 	}
 
-	.navbar-btn a:hover {
+	.navbar-btn:hover a {
 	letter-spacing: 2px;
 	font-size: 22px;
 	transition: all 280ms ease-in-out;
