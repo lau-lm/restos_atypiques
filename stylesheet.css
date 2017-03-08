@@ -35,7 +35,7 @@ body, html {
 
 .navbar.scroll {
 	background-color: rgba(0,0,0,.75);		
-	box-shadow: 0px 1px 50px #606161; 
+	box-shadow: 0px 1px 70px rgba(26,26,26,0.5); 
 	margin-top: 0;
 	height: 80px;
 	padding-top: 10px;
@@ -180,7 +180,7 @@ body, html {
 @media screen and (max-device-width: 768px) {
 	.navbar {
 		background-color: rgba(0,0,0,.8);		
-		box-shadow: 0px 1px 50px #606161; 
+		box-shadow: 0px 1px 70px rgba(26,26,26,0.5); 
 		border: 0;
 	}
 
@@ -255,6 +255,10 @@ body, html {
 	display: block;
 }
 
+.carousel .container-fluid{
+	padding: 0;
+}
+
 .slider-size {
 min-height: 200px;
 max-height: 1400px;
@@ -270,6 +274,10 @@ max-height: 1400px;
 .carousel-inner > .item > a > img{
 margin: auto;
 }
+
+.carousel-indicators li {
+    background-color: rgb(253,212,17);
+    }
 
 /*fin carousel style*/
 
@@ -501,17 +509,26 @@ footer .footer-below {
 
 /*the box where we put the description of the restaurant*/
 .modal-content{
-width: 600px;
 margin: 0 auto;
 padding: 15px;
 background: lightgrey;
 border-radius: 0;
 }
+.modal-content h2{
+	margin-bottom: 20px;
+	margin-top: 5px;
+}
+.modal-content p{
+	font-size: 1.5em;
+
+}
 .animated{
 	text-align: center;
-	
 }
-.close-animatedModal{
+#mentionsDiv{
+	height: 700px;
+}
+.close-animatedModal, .close-animatedModal2{
 	/*div that containe the close modal*/
 	width: 2.5em;
 	height: 2.5em;
@@ -520,7 +537,7 @@ border-radius: 0;
 	margin: 1em auto 2em auto;
 	
 }
-#closeModal{
+#closeModal, #closeModal2{
 	/*picture of the class that close the modal*/
 	width: 2em;
 	height: 2em;
@@ -529,18 +546,27 @@ border-radius: 0;
 	cursor: pointer;
 }
 
-#animatedModal{
+#animatedModal, #animatedModal2{
 	/*background color of the modal*/
 	background-color: rgba(0,0,0,.7) !important;
 }
 #pictureMapResto{
-	width: 100%;
+	width: 90%;
 }
 #conceptDiv .picture{
 	width: 100%;
 }
 
 
+#containerId{
+	width: 100%;
+}
+
+
+/*in-between sizes, bad position, ?
+@media screen and (min-width: 600px) and (max-width: 980px) {
+.navbar-btn{
+}*/
 
 
 /*style footer ANCIENNNNN*/
