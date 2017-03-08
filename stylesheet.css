@@ -180,7 +180,7 @@ body, html {
 @media screen and (max-width: 768px) {
 	.navbar {
 		background-color: rgba(0,0,0,.8);		
-		box-shadow: 0px 1px 50px #606161; 
+		box-shadow: 0px 1px 70px rgba(26,26,26,0.5); 
 		border: 0;
 	}
 
@@ -259,6 +259,10 @@ body, html {
 	display: block;
 }
 
+.carousel .container-fluid{
+	padding: 0;
+}
+
 .slider-size {
 min-height: 200px;
 max-height: 1400px;
@@ -274,6 +278,10 @@ max-height: 1400px;
 .carousel-inner > .item > a > img{
 margin: auto;
 }
+
+.carousel-indicators li {
+    background-color: rgb(253,212,17);
+    }
 
 /*fin carousel style*/
 
@@ -532,8 +540,10 @@ border-radius: 0;
 	width: 100%;
 }
 
-
-
+/*in-between sizes, bad position, ?
+@media screen and (min-width: 600px) and (max-width: 980px) {
+.navbar-btn{
+}*/
 
 /*style footer ANCIENNNNN*/
 
