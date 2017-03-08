@@ -282,6 +282,10 @@ margin: auto;
 	font-size: 2em;
 }
 
+.avisDiv {
+	margin: 9em 0;
+}
+
 .avis{
 	text-align: center;
 	padding: 3em 0 3em 0;
@@ -318,7 +322,6 @@ border-color: lightgray;
 /*style footer*/
 
 footer {
-	margin-top: 70px;
 	background-image: url('img/footer_background.jpg');
 	background-size: 100% auto;
 	background-repeat: no-repeat;
