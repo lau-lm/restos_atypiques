@@ -430,6 +430,11 @@ footer .footer-below {
 }
 
 
+footer .footer-below a {
+	color: #e5e3e3;
+}
+
+
 
 /*style footer destkop*/
 @media screen and (min-width: 576px) {
@@ -560,7 +565,7 @@ border-radius: 0;
 
 #containerId{
 	width: 100%;
-}
+
 
 #iframeMentions{
 	width: 100%;
@@ -574,46 +579,36 @@ border-radius: 0;
 }*/
 
 
-/*style footer ANCIENNNNN*/
 
-/*footer {
-	margin-top: 70px;
-}
-footer h3 {
-  margin-bottom: 30px;
-}
-footer .footer-above {
- 	color: black;
-	padding-top: 50px;
-  background-image: url('img/footer_background.jpg');
-	background-size: 100% auto;
-	background-color: black;
-	opacity: 0.6;
-
-}
-footer .footer-col {
-  margin-bottom: 50px;
-}
-footer .footer-below {
-  padding: 25px 0;
-  background-color: #233140;
-	color: white;
-}*/
-
-/*fin style footer*/
-
-/*style boutons sociaux*/
-/*.btn-social {
-  display: inline-block;
-  height: 50px;
-  width: 50px;
-  border: 2px solid black;
-  border-radius: 100%;
-  text-align: center;
-  font-size: 20px;
-  line-height: 45px;
-}
 
 .fa {
 	color: black;
 }*/
+
+
+
+
+
+/*PAGE FRANCHISE CONTACT*/
+
+#formdiv{
+	padding: 10px;
+	margin-top: 100px;
+	min-height: 700px;
+	max-width: 500px;
+	display: block;
+}
+
+
+/*FRANCHISE MOBILE*/
+
+@media ...
+
+#formdiv{
+	padding: ;
+	margin: 100px;
+	min-height: ;
+	max-width: ;
+	display: ;
+}
+
