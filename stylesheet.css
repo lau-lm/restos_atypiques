@@ -562,6 +562,11 @@ border-radius: 0;
 	width: 100%;
 }
 
+#iframeMentions{
+	width: 100%;
+	height: 100%;
+	overflow: false;
+}
 
 /*in-between sizes, bad position, ?
 @media screen and (min-width: 600px) and (max-width: 980px) {
