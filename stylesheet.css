@@ -24,7 +24,7 @@ body, html {
 
 /*navbar desktop style & animation*/
 
-@media screen and (min-width: 768px) {
+@media screen and (min-device-width: 768px) {
 .navbar {
 	background-color: transparent;
 	border: 0;
@@ -177,7 +177,7 @@ body, html {
 
 /*navbar style mobile*/
 
-@media screen and (max-width: 768px) {
+@media screen and (max-device-width: 768px) {
 	.navbar {
 		background-color: rgba(0,0,0,.8);		
 		box-shadow: 0px 1px 50px #606161; 
@@ -424,11 +424,11 @@ footer .footer-below {
 
 
 /*style footer destkop*/
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 576px) {
 
 	.list-inline li {
 		padding-top: 50px;
-		width: 180px;
+		width: 120px;
 	}
 
 	footer .footer-above {
@@ -448,7 +448,6 @@ footer .footer-below {
 
 	.list-inline li {
 		padding-top: 50px;
-		width: 180px;
 	}
 
 	.btn-social {
@@ -472,7 +471,7 @@ footer .footer-below {
 
 
 /*style footer mobile*/
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 576px) {
 
 	footer h3, .footer-below-right {
 		display: none;
