@@ -35,7 +35,7 @@ body, html {
 
 .navbar.scroll {
 	background-color: rgba(0,0,0,.75);		
-	box-shadow: 0px 1px 50px #606161; 
+	box-shadow: 0px 1px 70px rgba(26,26,26,0.5); 
 	margin-top: 0;
 	height: 80px;
 	padding-top: 10px;
@@ -180,7 +180,7 @@ body, html {
 @media screen and (max-width: 768px) {
 	.navbar {
 		background-color: rgba(0,0,0,.8);		
-		box-shadow: 0px 1px 50px #606161; 
+		box-shadow: 0px 1px 70px rgba(26,26,26,0.5); 
 		border: 0;
 	}
 
@@ -259,6 +259,10 @@ body, html {
 	display: block;
 }
 
+.carousel .container-fluid{
+	padding: 0;
+}
+
 .slider-size {
 min-height: 200px;
 max-height: 1400px;
@@ -274,6 +278,10 @@ max-height: 1400px;
 .carousel-inner > .item > a > img{
 margin: auto;
 }
+
+.carousel-indicators li {
+    background-color: rgb(253,212,17);
+    }
 
 /*fin carousel style*/
 
@@ -306,20 +314,62 @@ width: 100%;
 height: 700px;
 margin: auto;
 }
-.mapDiv,.conceptDiv{
+
+.mapDiv {
 padding: 3em 0 3em 0;
 border-bottom: solid 1px;
 border-color: lightgray;
 }
+
+
+
+
+/*conceptDiv style*/
+
+.conceptDiv{
+	margin: 8em 0 9em 0;
+}
+
 .conceptDiv h2 {
+	font-family: 'Poiret One', cursive;
+	text-align: center;
+	font-weight: bold;
+	font-size: 2.5em;
+}
+
+.conceptDiv p {
+	/*font-family: 'Alegreya Sans SC', sans-serif;*/
 		font-family: 'Poiret One', cursive;
-		font-weight: bold;
-		margin-bottom: 1em;
+		font-size: 1.6em;
+}
+
+h2 .textHighlight {
+	color:#FDD835;
+}
+
+.underTitle {
+	font-family: 'Alegreya Sans SC', sans-serif;
+	font-size: 1.5em;
+	border-bottom: 1px solid #c4c4c4; 
+	line-height: 0.1em;
+  margin: 1.7em auto 2.7em auto; 
+  text-align: center;
+	font-weight: bold;
+	width: 26%;
+	color: #a5a5a5;
+}
+
+.underTitle span { 
+    background:white; 
+    padding:0 10px; 
 }
 
 
 
-/*style footer*/
+
+
+
+/*footer style*/
 
 footer {
 	background-image: url('img/footer_background.jpg');
@@ -499,9 +549,16 @@ border-radius: 0;
 	width: 100%;
 }
 
+
 #containerId{
 	width: 100%;
 }
+
+
+/*in-between sizes, bad position, ?
+@media screen and (min-width: 600px) and (max-width: 980px) {
+.navbar-btn{
+}*/
 
 
 /*style footer ANCIENNNNN*/
