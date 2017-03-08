@@ -277,29 +277,10 @@ margin: auto;
 
 /*fin carousel style*/
 
-.avisDiv .glyphicon{
-	color: goldenrod;
-	font-size: 2em;
-}
 
-.avisDiv {
-	margin: 9em 0;
-}
 
-.avis{
-	text-align: center;
-	padding: 3em 0 3em 0;
-}
-p{
-	text-align: center;
-}
-.avis p{
-	text-align: center;
-}
-.avisTexte{
-	height: 100%;
-	margin: auto 0 auto 0;
-}
+
+/*mapDIv style*/ 
 
 #map{
 width: 100%;
@@ -312,6 +293,7 @@ padding: 3em 0 3em 0;
 border-bottom: solid 1px;
 border-color: lightgray;
 }
+
 
 
 /* texts and titles styles */
@@ -356,6 +338,36 @@ h2 .textHighlight {
 .conceptDiv{
 	margin: 8em 0 9em 0;
 }
+
+
+
+/*avisDiv style */
+
+.avisDiv .glyphicon{
+	color: goldenrod;
+	font-size: 2em;
+}
+
+.avisDiv {
+	margin: 9em 0;
+}
+
+.avis{
+	text-align: center;
+	padding: 3em 0 3em 0;
+}
+p{
+	text-align: center;
+}
+.avis p{
+	text-align: center;
+}
+.avisTexte{
+	height: 100%;
+	margin: auto 0 auto 0;
+}
+
+
 
 
 
