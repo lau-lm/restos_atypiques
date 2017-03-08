@@ -3,20 +3,12 @@ body, html {
 	padding: 0;
 }
 
-/*header parallax style*/
+/*parallax style*/
 
 .parallax-window {
 	background-color: rgba(0,0,0,.3);
 	width: 100%;
 	min-height: 700px;
-}
-
-
-.parallaxText {
-	color: white;
-	font-size: 20px;
-	text-align: center;
-	font-family: 'Poiret One', cursive;
 }
 
 
