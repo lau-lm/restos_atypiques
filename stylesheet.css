@@ -361,12 +361,15 @@ p{
 .avisTexte{
 	height: 100%;
 	margin: auto 0 auto 0;
+	padding: 0 20px 0 0;
 }
 .avisDiv .picture{
 	max-width: 100%;
 	border-radius: 100%;
 }
-
+#divPicture{
+	padding-right: 5px;
+}
 
 
 
