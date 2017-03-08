@@ -575,3 +575,35 @@ border-radius: 0;
 
 
 
+
+.fa {
+	color: black;
+}*/
+
+
+
+
+
+/*PAGE FRANCHISE CONTACT*/
+
+#formdiv{
+	padding: 10px;
+	margin-top: 100px;
+	min-height: 700px;
+	max-width: 500px;
+	display: block;
+}
+
+
+/*FRANCHISE MOBILE*/
+
+@media ...
+
+#formdiv{
+	padding: ;
+	margin: 100px;
+	min-height: ;
+	max-width: ;
+	display: ;
+}
+
