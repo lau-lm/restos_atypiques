@@ -540,6 +540,10 @@ border-radius: 0;
 	width: 100%;
 }
 
+/*in-between sizes, bad position, ?
+@media screen and (min-width: 600px) and (max-width: 980px) {
+.navbar-btn{
+}*/
 
 /*style footer ANCIENNNNN*/
 
