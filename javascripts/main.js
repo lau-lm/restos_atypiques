@@ -55,6 +55,10 @@ $(document).ready(function () {
   let map = new google.maps.Map(document.getElementById('map'),
     mapOptions);
 
+  let image = {
+    url: 'img/logo_map.svg',
+  };
+
   // Associate the styled map with the MapTypeId and set it to display.
   map.mapTypes.set('map_style', styledMap);
   map.setMapTypeId('map_style');
@@ -63,6 +67,7 @@ $(document).ready(function () {
   let marker1 = new google.maps.Marker({
     position: { lat: 45.746404, lng: 4.824766 },
     title: 'Restaurant Atypique Lyon',
+    icon: image,
   });
   // add marker on the map
   marker1.setMap(map);
@@ -71,6 +76,7 @@ $(document).ready(function () {
   let marker2 = new google.maps.Marker({
     position: { lat: 48.4735294, lng: 1.0098665 },
     title: 'Restaurant Atypique La Loupe',
+    icon: image,
   });
   // add marker on the map
   marker2.setMap(map);
@@ -79,6 +85,7 @@ $(document).ready(function () {
   let marker3 = new google.maps.Marker({
     position: { lat: 43.601519, lng: 1.439835 },
     title: 'Restaurant Atypique Toulouse',
+    icon: image,
   });
   // add marker on the map
   marker3.setMap(map);
@@ -87,6 +94,7 @@ $(document).ready(function () {
   let marker4 = new google.maps.Marker({
     position: { lat: 47.8938701, lng: 1.8920055 },
     title: 'Restaurant Atypique Orléans',
+    icon: image,
   });
   // add marker on the map
   marker4.setMap(map);
@@ -95,6 +103,7 @@ $(document).ready(function () {
   let marker5 = new google.maps.Marker({
     position: { lat: 44.8336476, lng: -0.5682131 },
     title: 'Restaurant Atypique Bordeaux',
+    icon: image,
   });
   // add marker on the map
   marker5.setMap(map);
@@ -102,7 +111,8 @@ $(document).ready(function () {
   // marker6 Fontainebleau creation
   let marker6 = new google.maps.Marker({
     position: { lat: 48.4037414, lng: 2.6921273 },
-    title: 'Restaurant Atypique Bordeaux',
+    title: 'Restaurant Atypique Fontainebleau',
+    icon: image,
   });
   // add marker on the map
   marker6.setMap(map);
