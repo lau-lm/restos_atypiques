@@ -100,9 +100,11 @@ body, html {
 
 
 /*underline hover effect  desktop*/
-.nav.navbar-nav li a:hover {
+.navbar-nav li a:hover {
 		color: #FDD835!important;
 }
+
+
 
 .nav.navbar-nav li a:before {
 	content: "";
@@ -341,38 +343,42 @@ footer .footer-below {
 	color: white;
 }
 
+.list-inline li {
+	width: 200px;
+}
+
 /*fin style footer*/
 
 /*style boutons sociaux*/
 .btn-social {
   display: inline-block;
-  height: 50px;
-  width: 50px;
+  height: 80px;
+  width: 80px;
   border: 2px solid #FDD835;
   border-radius: 100%;
   text-align: center;
-  font-size: 20px;
-  line-height: 45px;
+  font-size: 35px;
+  line-height: 75px;
 }
 
 .btn-social:hover {
   display: inline-block;
-  height: 50px;
-  width: 50px;
+  height: 80px;
+  width: 80px;
   border: 2px solid #FDD835;
 	background-color: #FDD835;
   border-radius: 100%;
   text-align: center;
-  font-size: 20px;
-  line-height: 45px;
+  font-size: 35px;
+  line-height: 75px;
 }
 
-.fa {
-	color: #FDD835;
+.btn-social i {
+	color: #FDD835!important;
 }
 
-.fa a:hover {
-	color: black;
+.btn-social:hover i {
+	color: black!important;
 }
 
 /*the box where we put the description of the restaurant*/
@@ -404,6 +410,7 @@ border-radius: 0;
 	/*change the cursor to the little hand*/
 	cursor: pointer;
 }
+
 #animatedModal{
 	/*background color of the modal*/
 	background-color: rgba(0,0,0,.7) !important;
