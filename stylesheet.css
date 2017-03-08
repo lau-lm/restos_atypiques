@@ -44,7 +44,7 @@ body, html {
 	height: auto;
 	margin-left: 50px;
 	transition: margin, width .3s ease;
-}
+	}
 
 .navbar-brand .scroll {
 	width:58px;
@@ -121,8 +121,8 @@ body, html {
 
 .navbar-btn {
 	margin-right: 80px;
-	clear: both;
-	float: none;
+	/*clear: both;*/
+	/*float: none;*/
 	border-radius:0;
 	background-color: transparent;
 	border-style : solid;
