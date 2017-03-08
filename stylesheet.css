@@ -314,25 +314,13 @@ border-color: lightgray;
 }
 
 
+/* texts and titles styles */
 
-
-/*conceptDiv style*/
-
-.conceptDiv{
-	margin: 8em 0 9em 0;
-}
-
-.conceptDiv h2 {
+h2 {
 	font-family: 'Poiret One', cursive;
 	text-align: center;
 	font-weight: bold;
 	font-size: 2.5em;
-}
-
-.conceptDiv p {
-	/*font-family: 'Alegreya Sans SC', sans-serif;*/
-		font-family: 'Poiret One', cursive;
-		font-size: 1.6em;
 }
 
 h2 .textHighlight {
@@ -356,8 +344,18 @@ h2 .textHighlight {
     padding:0 10px; 
 }
 
+.conceptDiv p {
+		font-family: 'Poiret One', cursive;
+		font-size: 1.6em;
+}
 
 
+
+/*conceptDiv style*/
+
+.conceptDiv{
+	margin: 8em 0 9em 0;
+}
 
 
 
