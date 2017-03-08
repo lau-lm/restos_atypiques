@@ -174,6 +174,10 @@ $(document).ready(function () {
   });
 
   $("#demo01").animatedModal();
+
+
+  // $("#mentionsDiv").txt();
+
   $("#demo02").animatedModal({
     modalTarget: 'animatedModal2',
   });

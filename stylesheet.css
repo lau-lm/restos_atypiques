@@ -466,7 +466,9 @@ border-radius: 0;
 }
 .animated{
 	text-align: center;
-	
+}
+#mentionsDiv{
+	height: 700px;
 }
 .close-animatedModal, .close-animatedModal2{
 	/*div that containe the close modal*/
