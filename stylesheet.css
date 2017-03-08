@@ -306,7 +306,7 @@ h2 .textHighlight {
     padding:0 10px; 
 }
 
-.conceptDiv p, .reseauDiv p {
+.conceptDiv p, .reseauDiv p, #contentResto p {
 		font-family: 'Poiret One', cursive;
 		font-size: 1.6em;
 }
@@ -508,7 +508,7 @@ footer .footer-below a {
 .modal-content{
 margin: 0 auto;
 padding: 15px;
-background: lightgrey;
+background: white;
 border-radius: 0;
 }
 .modal-content h2{

@@ -119,7 +119,7 @@ $(document).ready(function () {
 
   marker1.addListener('click', function () {
 
-    $('#mapText').text('Restaurant de Lyon');
+    $('#mapText').html('Restaurant de <span class="textHighlight">Lyon</span>');
     $('#horaireMapResto').html('Lundi au vendredi :<br/>11h30 à 22h<br/>Tel : 08.36.65.65.65');
     $('#adresseMap').html('17 Rue Delandine<br/>69002 Lyon');
     $('#descriptionMapResto').html('Le restaurant de Lyon est dans une prison ! Quoi de plus atypique que de manger où les condammés devaient purger leur peine');
@@ -128,7 +128,7 @@ $(document).ready(function () {
     $("#demo01").trigger('click');
   });
   marker2.addListener('click', function () {
-    $('#mapText').text('Restaurant de La Loupe');
+    $('#mapText').html('Restaurant de <span class="textHighlight">La Loupe</span>');
     $('#horaireMapResto').html('Mardi au samedi :<br/>19h30 à 23h<br/>Tel : 08.36.65.65.65');
     $('#adresseMap').html('18 Rue de la gare<br/>28240 La Loupe');
     $('#descriptionMapResto').html('Le restaurant de La Loupe vous plonge sous la mer des Caraïbes pour vous évader le temps d\'un repas');
@@ -137,7 +137,7 @@ $(document).ready(function () {
     $("#demo01").trigger('click');
   });
   marker3.addListener('click', function () {
-    $('#mapText').text('Restaurant de Toulouse');
+    $('#mapText').html('Restaurant de <span class="textHighlight">Toulouse</span>');
     $('#horaireMapResto').html('Lundi au vendredi :<br/>11h30 à 22h<br/>Tel : 08.36.65.65.65');
     $('#adresseMap').html('1 Place de la bourse<br/>31000 Toulouse');
     $('#descriptionMapResto').html('Le restaurant de Toulouse vous fera saliver dès votre arrivé avec les meilleurs jambons de la région.');
@@ -146,7 +146,7 @@ $(document).ready(function () {
     $("#demo01").trigger('click');
   });
   marker4.addListener('click', function () {
-    $('#mapText').text('Restaurant de Orléans');
+    $('#mapText').html('Restaurant de <span class="textHighlight">Orléans</span>');
     $('#horaireMapResto').html('Lundi au vendredi :<br/>11h30 à 22h<br/>Tel : 08.36.65.65.65');
     $('#adresseMap').html('1 Avenue du champ de Mars<br/>45100 Orléans');
     $('#descriptionMapResto').html('Le restaurant d\'Orléans construit autour d\'un arbre vous rapprochera de la nature.');
@@ -155,7 +155,7 @@ $(document).ready(function () {
     $("#demo01").trigger('click');
   });
   marker5.addListener('click', function () {
-    $('#mapText').text('Restaurant de Bordeaux');
+    $('#mapText').html('Restaurant de <span class="textHighlight">Bordeaux</span>');
     $('#horaireMapResto').html('Lundi au vendredi :<br/>11h30 à 22h<br/>Tel : 08.36.65.65.65');
     $('#adresseMap').html('15 Place Canteloup<br/>33800 Bordeaux');
     $('#descriptionMapResto').html('Le restaurant de Bordeaux sur la falaise donnant sur la Garonne ne vous laissera pas tomber avec ses délicieux poissons.');
@@ -164,7 +164,7 @@ $(document).ready(function () {
     $("#demo01").trigger('click');
   });
   marker6.addListener('click', function () {
-    $('#mapText').text('Restaurant de Fontainebleau');
+    $('#mapText').html('Restaurant de <span class="textHighlight">Fontainebleau</span>');
     $('#horaireMapResto').html('Lundi au vendredi :<br/>11h30 à 22h<br/>Tel : 08.36.65.65.65');
     $('#adresseMap').html('35 rue Saint Honoré<br/>77300 Fontainebleau');
     $('#descriptionMapResto').html('Le restaurant de Fontainebleau positionné parfaitement en haut du Pic de Fontainebleau. La vue est magnifique vous ne trouvez pas?');
