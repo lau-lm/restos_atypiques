@@ -306,7 +306,7 @@ h2 .textHighlight {
     padding:0 10px; 
 }
 
-.conceptDiv p {
+.conceptDiv p, .reseauDiv p {
 		font-family: 'Poiret One', cursive;
 		font-size: 1.6em;
 }
@@ -315,7 +315,7 @@ h2 .textHighlight {
 
 /*conceptDiv style*/
 
-.conceptDiv{
+.conceptDiv, .reseauDiv {
 	padding: 8em 0 9em 0;
 }
 
