@@ -451,7 +451,7 @@ footer .footer-below {
 
 /*the box where we put the description of the restaurant*/
 .modal-content{
-width: 600px;
+/*width: 600px;*/
 margin: 0 auto;
 padding: 15px;
 background: lightgrey;
@@ -484,13 +484,15 @@ border-radius: 0;
 	background-color: rgba(0,0,0,.7) !important;
 }
 #pictureMapResto{
-	width: 100%;
+	width: 90%;
 }
 #conceptDiv .picture{
 	width: 100%;
 }
 
-
+#containerId{
+	width: 100%;
+}
 
 
 /*style footer ANCIENNNNN*/
