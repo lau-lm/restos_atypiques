@@ -88,6 +88,6 @@ $(document).ready(function () {
 			offset: '100%'
 		});
 
-});
+
 
 
