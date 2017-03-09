@@ -42,9 +42,10 @@ body, html {
 .navbar-brand img {
 	width:150px;
 	height: auto;
-	margin-left: 50px;
+	margin-left: .4em;
+	margin-right: 1em;
 	transition: margin, width .3s ease;
-}
+	}
 
 .navbar-brand .scroll {
 	width:58px;
@@ -54,7 +55,8 @@ body, html {
 }
 
 /*center menu items*/
-.navbar .navbar-nav {
+
+/*.navbar .navbar-nav {
 	display: inline-block;
 	float: none;
 	vertical-align: top;
@@ -62,7 +64,7 @@ body, html {
 	
 .navbar .navbar-collapse {
 	text-align: center;
-}
+}*/
 
 .navbar-default .navbar-brand {
 	color: white; 
@@ -87,7 +89,7 @@ body, html {
 	position: relative;
 	text-decoration: none;
 	font-family: 'Poiret One', cursive;
-	transition: color, font-size .3 ease;
+	transition: all .3 ease;
 }
 
 
@@ -95,7 +97,6 @@ body, html {
 .navbar-nav li a:hover {
 		color: #FDD835!important;
 }
-
 
 
 .nav.navbar-nav li a:before {
@@ -121,8 +122,8 @@ body, html {
 
 .navbar-btn {
 	margin-right: 80px;
-	clear: both;
-	float: none;
+	/*clear: both;*/
+	/*float: none;*/
 	border-radius:0;
 	background-color: transparent;
 	border-style : solid;
@@ -156,14 +157,10 @@ body, html {
 
 /*active class to highlight menu on .scroll*/
 	.nav.navbar-nav .active a {
-	background-color: transparent;
+	background-color: transparent!important;
 	color: #FDD835!important;
+	border-bottom: 1px solid #FDD835;
 	}
-
-	.nav.navbar-nav .active a:hover {
-	background-color: transparent;
-}
-
 
 
 
@@ -297,8 +294,8 @@ h2 .textHighlight {
   margin: 1.7em auto 2.7em auto; 
   text-align: center;
 	font-weight: bold;
-	width: 26%;
 	color: #a5a5a5;
+	width: 50%;
 }
 
 .underTitle span { 
@@ -313,18 +310,30 @@ h2 .textHighlight {
 
 
 
-/*conceptDiv style*/
+/*marges text section desktop */
+ 
+ @media screen and (min-device-width: 768px) {
+	.conceptDiv, .reseauDiv {
+		padding: 7em 0 8em 0;
+	}
 
-.conceptDiv, .reseauDiv {
-	padding: 8em 0 9em 0;
-}
+	.mapDiv, .avisDiv {
+	padding: 7em 0 0 0;
+	}
+ }
 
+/*marges text section mobile */
+ 
+ @media screen and (max-device-width: 768px) {
+	.conceptDiv, .reseauDiv {
+		padding: 5em 0 6em 0;
+	}
 
-/*mapDiv style*/ 
+	.mapDiv, .avisDiv {
+	padding: 4em 0 0 0;
+	}
+ }
 
-.mapDiv {
-padding: 8em 0 0 0;
-}
 
 #map{
 width: 100%;
@@ -340,9 +349,6 @@ margin: auto;
 	font-size: 2em;
 }
 
-.avisDiv {
-	margin: 8em 0;
-}
 
 .avisDiv .underTitle {
 	margin-bottom: 4em;
@@ -350,8 +356,9 @@ margin: auto;
 
 .avis{
 	text-align: center;
-	padding: 3em 0 3em 0;
+	padding: 0.5em 0 3em 0;
 }
+
 p{
 	text-align: center;
 }
@@ -379,13 +386,14 @@ footer {
 	background-image: url('img/footer_background.jpg');
 	background-size: 100% auto;
 	background-repeat: no-repeat;
+	margin-top: 7em;
 	}
 
 
 footer h3 {
 	color: #FDD835;
 	border-style: solid;
-	border-width: 0 0 2px 0;
+	border-width: 0 0 0.01em 0;
 	border-color: #FDD835;
 	display: inline-block;
 	font-family: 'Poiret One', cursive;
@@ -394,7 +402,7 @@ footer h3 {
 
 .btn-social {
 	display: inline-block;
-	border: 2px solid #FDD835;
+	border: 0.01em solid #FDD835;
 	border-radius: 100%;
 	text-align: center;
 	transition: all 0.2s ease-out 0s;
@@ -440,7 +448,7 @@ footer .footer-below a {
 	}
 
 	footer .footer-above {
-		background-color: rgba(0,0,0,.5);
+		background-color: rgba(0,0,0,.8);
 		height: 330px;
 	}
 
