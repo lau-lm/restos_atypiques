@@ -391,7 +391,7 @@ footer h3 {
 
 .btn-social {
 	display: inline-block;
-	border: 2px solid #FDD835;
+	border: 1px solid #FDD835;
 	border-radius: 100%;
 	text-align: center;
 	transition: all 0.2s ease-out 0s;
