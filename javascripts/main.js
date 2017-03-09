@@ -195,9 +195,9 @@ $(document).ready(function () {
 
 
 
-  // highlitgth li menu on scroll 
+  // highlitgth li menu on scroll homepage
 
-
+  // highlight on scroll down
 
   $('.conceptDiv').waypoint(function (direction) {
     if (direction === 'down') {
@@ -255,7 +255,20 @@ $(document).ready(function () {
       offset: '100%'
     });
 
+
+
+
+
+
+
+
+
+
+
 });
+
+
+
 
 
 //formulaire page franchisés
