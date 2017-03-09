@@ -29,9 +29,12 @@ $(document).ready(function () {
 
 
 
-	// highlitgth li menu on scroll 
 
-	$('.conceptDiv').waypoint(function (direction) {
+	// highlitgth li menu on franchise homepage
+
+	// highlight on scroll down
+
+	$('.reseauDiv').waypoint(function (direction) {
 		if (direction === 'down') {
 			$("li:eq(0)").addClass('active');
 		}
@@ -40,8 +43,7 @@ $(document).ready(function () {
 		});
 
 
-
-	$('.mapDiv').waypoint(function (direction) {
+	$('#formdiv').waypoint(function (direction) {
 		if (direction === 'down') {
 			$("li:eq(0)").removeClass('active');
 			$("li:eq(1)").addClass('active');
@@ -50,17 +52,10 @@ $(document).ready(function () {
 			offset: '50%'
 		});
 
-	$('.avisDiv').waypoint(function (direction) {
-		if (direction === 'down') {
-			$("li:eq(1)").removeClass('active');
-			$("li:eq(2)").addClass('active');
-		}
-	}, {
-			offset: '50%'
-		});
+
 
 	// highlight on scroll up
-	$('.conceptDiv').waypoint(function (direction) {
+	$('.reseauDiv').waypoint(function (direction) {
 		if (direction === 'up') {
 			$("li:eq(0)").removeClass('active');
 		}
@@ -69,7 +64,7 @@ $(document).ready(function () {
 		});
 
 
-	$('.mapDiv').waypoint(function (direction) {
+	$('#formdiv').waypoint(function (direction) {
 		if (direction === 'up') {
 			$("li:eq(0)").addClass('active');
 			$("li:eq(1)").removeClass('active');
@@ -79,15 +74,6 @@ $(document).ready(function () {
 		});
 
 
-	$('.avisDiv').waypoint(function (direction) {
-		if (direction === 'up') {
-			$("li:eq(1)").addClass('active');
-			$("li:eq(2)").removeClass('active');
-		}
-	}, {
-			offset: '100%'
-		});
-
-
+});
 
 
