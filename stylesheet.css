@@ -294,8 +294,8 @@ h2 .textHighlight {
   margin: 1.7em auto 2.7em auto; 
   text-align: center;
 	font-weight: bold;
-	width: 26%;
 	color: #a5a5a5;
+	width: 50%;
 }
 
 .underTitle span { 
@@ -310,18 +310,30 @@ h2 .textHighlight {
 
 
 
-/*conceptDiv style*/
+/*marges text section desktop */
+ 
+ @media screen and (min-device-width: 768px) {
+	.conceptDiv, .reseauDiv {
+		padding: 7em 0 8em 0;
+	}
 
-.conceptDiv, .reseauDiv {
-	padding: 8em 0 9em 0;
-}
+	.mapDiv, .avisDiv {
+	padding: 7em 0 0 0;
+	}
+ }
 
+/*marges text section mobile */
+ 
+ @media screen and (max-device-width: 768px) {
+	.conceptDiv, .reseauDiv {
+		padding: 5em 0 6em 0;
+	}
 
-/*mapDiv style*/ 
+	.mapDiv, .avisDiv {
+	padding: 4em 0 0 0;
+	}
+ }
 
-.mapDiv {
-padding: 8em 0 0 0;
-}
 
 #map{
 width: 100%;
@@ -337,9 +349,6 @@ margin: auto;
 	font-size: 2em;
 }
 
-.avisDiv {
-	margin: 8em 0;
-}
 
 .avisDiv .underTitle {
 	margin-bottom: 4em;
@@ -347,8 +356,9 @@ margin: auto;
 
 .avis{
 	text-align: center;
-	padding: 3em 0 3em 0;
+	padding: 0.5em 0 3em 0;
 }
+
 p{
 	text-align: center;
 }
@@ -376,6 +386,7 @@ footer {
 	background-image: url('img/footer_background.jpg');
 	background-size: 100% auto;
 	background-repeat: no-repeat;
+	margin-top: 7em;
 	}
 
 
@@ -391,7 +402,7 @@ footer h3 {
 
 .btn-social {
 	display: inline-block;
-	border: 1px solid #FDD835;
+	border: 0.01em solid #FDD835;
 	border-radius: 100%;
 	text-align: center;
 	transition: all 0.2s ease-out 0s;
