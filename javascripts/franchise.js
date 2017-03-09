@@ -74,6 +74,19 @@ $(document).ready(function () {
 		});
 
 
+
+	$('.avisDiv').waypoint(function (direction) {
+		if (direction === 'up') {
+			$("li:eq(1)").addClass('active');
+			$("li:eq(2)").removeClass('active');
+		}
+	}, {
+			offset: '100%'
+		});
 });
+
+
+
+
 
 
