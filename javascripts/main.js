@@ -197,6 +197,8 @@ $(document).ready(function () {
 
   // highlitgth li menu on scroll 
 
+
+
   $('.conceptDiv').waypoint(function (direction) {
     if (direction === 'down') {
       $("li:eq(0)").addClass('active');
@@ -204,8 +206,6 @@ $(document).ready(function () {
   }, {
       offset: '50%'
     });
-
-
 
 
   $('.mapDiv').waypoint(function (direction) {

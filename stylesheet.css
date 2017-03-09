@@ -42,7 +42,8 @@ body, html {
 .navbar-brand img {
 	width:150px;
 	height: auto;
-	margin-left: 50px;
+	margin-left: .4em;
+	margin-right: 1em;
 	transition: margin, width .3s ease;
 }
 
@@ -54,7 +55,8 @@ body, html {
 }
 
 /*center menu items*/
-.navbar .navbar-nav {
+
+/*.navbar .navbar-nav {
 	display: inline-block;
 	float: none;
 	vertical-align: top;
@@ -62,7 +64,7 @@ body, html {
 	
 .navbar .navbar-collapse {
 	text-align: center;
-}
+}*/
 
 .navbar-default .navbar-brand {
 	color: white; 
@@ -87,7 +89,7 @@ body, html {
 	position: relative;
 	text-decoration: none;
 	font-family: 'Poiret One', cursive;
-	transition: color, font-size .3 ease;
+	transition: all .3 ease;
 }
 
 
@@ -95,7 +97,6 @@ body, html {
 .navbar-nav li a:hover {
 		color: #FDD835!important;
 }
-
 
 
 .nav.navbar-nav li a:before {
@@ -156,14 +157,10 @@ body, html {
 
 /*active class to highlight menu on .scroll*/
 	.nav.navbar-nav .active a {
-	background-color: transparent;
+	background-color: transparent!important;
 	color: #FDD835!important;
+	border-bottom: 1px solid #FDD835;
 	}
-
-	.nav.navbar-nav .active a:hover {
-	background-color: transparent;
-}
-
 
 
 
