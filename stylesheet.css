@@ -382,7 +382,7 @@ footer {
 footer h3 {
 	color: #FDD835;
 	border-style: solid;
-	border-width: 0 0 2px 0;
+	border-width: 0 0 0.01em 0;
 	border-color: #FDD835;
 	display: inline-block;
 	font-family: 'Poiret One', cursive;
