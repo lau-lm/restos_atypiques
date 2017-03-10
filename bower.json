@@ -15,6 +15,10 @@
     "tests"
   ],
   "dependencies": {
-    "animatedmodal": "*"
+    "animatedmodal": "*",
+    "jquery": "^3.1.1",
+    "waypoints": "^4.0.1",
+    "wow": "^1.1.2",
+    "scrollNav": "^2.7.1"
   }
 }
