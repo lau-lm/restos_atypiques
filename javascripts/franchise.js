@@ -11,7 +11,7 @@ $(document).ready(function () {
 	});
 
 
-
+	// active le modal au click
 	$("#demo02").animatedModal({
 		modalTarget: 'animatedModal2',
 	});
@@ -25,9 +25,6 @@ $(document).ready(function () {
 			$('.navbar, .navbar-default .navbar-brand, .navbar-brand img, .navbar-collapse').removeClass('scroll');
 		}
 	});
-
-
-
 
 
 	// highlitgth li menu on franchise homepage
@@ -53,7 +50,6 @@ $(document).ready(function () {
 		});
 
 
-
 	// highlight on scroll up
 	$('.reseauDiv').waypoint(function (direction) {
 		if (direction === 'up') {
@@ -74,7 +70,6 @@ $(document).ready(function () {
 		});
 
 
-
 	$('.avisDiv').waypoint(function (direction) {
 		if (direction === 'up') {
 			$("li:eq(1)").addClass('active');
@@ -84,9 +79,6 @@ $(document).ready(function () {
 			offset: '100%'
 		});
 });
-
-
-
 
 
 
